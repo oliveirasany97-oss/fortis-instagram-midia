@@ -116,10 +116,10 @@ def feed(p):
     return f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h)}
   <img class="logo" src="{A}/logo.png" style="top:54px;width:170px">
   <div class="kicker" style="top:300px;font-size:24px">{e(p['kicker'])}</div>
-  <div class="titulo" data-max="980" data-fs="124" style="top:350px;line-height:1.02">
+  <div class="titulo" data-max="920" data-fs="120" style="top:350px;line-height:1.02">
     <div class="branco">{e(p['titulo'][0])}</div><div class="metal">{e(p['titulo'][1])}</div></div>
-  <p class="sub" style="top:628px;left:100px;right:100px;font-size:32px">{rich(p['sub'])}</p>
-  <div style="position:absolute;top:800px;left:70px;right:70px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px">{cards}</div>
+  <p class="sub" style="top:628px;left:110px;right:110px;font-size:32px">{rich(p['sub'])}</p>
+  <div style="position:absolute;top:800px;left:90px;right:90px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px">{cards}</div>
   <p class="cta" style="top:1135px;font-size:29px;padding:0 60px">{rich(p['frase'])}</p>
   <div class="rodape" style="bottom:52px;font-size:21px">FORTÍS SOLUÇÕES MATCON</div>
 </div>"""
@@ -131,17 +131,17 @@ def story(s):
         enquete = '<div style="height:330px;margin:50px 60px 0;border:none"></div>'
     linhas = "".join(f'<div class="{"metal" if i == len(s["titulo"]) - 1 else "branco"}">{e(t)}</div>'
                      for i, t in enumerate(s["titulo"]))
-    return f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h,.87)}
-  <img class="logo" src="{A}/logo.png" style="top:150px;width:190px">
-  <div style="position:absolute;top:470px;left:0;right:0;bottom:330px;display:flex;flex-direction:column;justify-content:center">
+    return f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h,.93)}
+  <img class="logo" src="{A}/logo.png" style="top:280px;width:170px">
+  <div style="position:absolute;top:600px;left:0;right:0;bottom:520px;display:flex;flex-direction:column;justify-content:center">
     <div class="kicker" style="position:static;font-size:28px">{e(s['kicker'])}</div>
-    <div class="titulo" data-max="960" data-fs="{s.get('fs', 112)}" style="position:static;margin-top:34px;line-height:1.05">{linhas}</div>
+    <div class="titulo" data-max="900" data-fs="{s.get('fs', 104)}" style="position:static;margin-top:34px;line-height:1.05">{linhas}</div>
     <p class="sub" style="position:static;margin:44px 100px 0;font-size:44px">{rich(s.get('sub', ''))}</p>
     {enquete}
     <p class="cta" style="position:static;margin-top:60px;font-size:36px;padding:0 80px">{rich(s.get('frase', ''))}</p>
   </div>
-  <div class="rodape" style="bottom:170px;font-size:24px">FORTÍS SOLUÇÕES MATCON</div>
-  <div class="handle" style="bottom:120px;font-size:26px">@fortis.solucoesmatcon</div>
+  <div class="rodape" style="bottom:430px;font-size:22px">FORTÍS SOLUÇÕES MATCON</div>
+  <div class="handle" style="bottom:385px;font-size:24px">@fortis.solucoesmatcon</div>
 </div>"""
 
 def pagina(corpo):
