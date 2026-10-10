@@ -144,8 +144,81 @@ def story(s):
   <div class="handle" style="bottom:385px;font-size:24px">@fortis.solucoesmatcon</div>
 </div>"""
 
+
+CSS_EXTRA = """
+.foto{position:absolute;filter:drop-shadow(0 30px 40px rgba(0,0,0,.6))}
+.halo{position:absolute;border-radius:50%;filter:blur(70px);background:radial-gradient(circle,rgba(217,181,121,.38),rgba(217,181,121,0) 70%)}
+.esq{text-align:left}
+.kicker.esq{white-space:nowrap}
+.kicker.esq:before{display:none}
+.esq.titulo div{margin:0}
+.citacao{position:absolute;font-weight:600;line-height:1.4;color:#fff;border-left:4px solid var(--gold);padding:6px 0 6px 26px}
+.assina{position:absolute;font-weight:600;color:var(--gold);letter-spacing:1px}
+.assina small{display:block;color:#c4ccda;font-weight:500;letter-spacing:0;margin-top:4px}
+.check{display:flex;align-items:flex-start;gap:26px;margin-bottom:34px}
+.check .box{flex:0 0 58px;height:58px;border:3px solid var(--gold);border-radius:14px;display:flex;align-items:center;justify-content:center;font-family:Osw;font-size:30px;color:var(--gold)}
+.check b{display:block;font-size:34px;color:#fff}
+.check span{display:block;font-size:24px;color:#c4ccda;margin-top:6px;line-height:1.35}
+"""
+
+def feed_foto(p):
+    w, h = 1080, 1350
+    lay = p.get("layout", "dir")
+    foto = f"{A}/{p.get('foto', 'sany-notebook.png')}"
+    tit = "".join(f'<div class="{"metal" if i == len(p["titulo"]) - 1 else "branco"}">{e(t)}</div>' for i, t in enumerate(p["titulo"]))
+    if lay == "centro":
+        return f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h)}
+  <img class="logo" src="{A}/logo.png" style="top:50px;width:140px">
+  <div class="kicker" style="top:250px;font-size:22px">{e(p['kicker'])}</div>
+  <div class="titulo" data-max="920" data-fs="104" style="top:292px;line-height:1.02">{tit}</div>
+  <div class="halo" style="width:760px;height:560px;left:160px;top:720px"></div>
+  <img class="foto" src="{foto}" style="width:700px;left:190px;top:{p.get('foto_top', 650)}px">
+  <p class="sub" style="top:{p.get('sub_top', 540)}px;left:110px;right:110px;font-size:30px">{rich(p['sub'])}</p>
+  <div class="assina" style="left:0;right:0;text-align:center;top:{p.get('sub_top', 540) + 62}px;font-size:20px">SÂNY OLIVEIRA<small>Fundador · FORTÍS SOLUÇÕES MATCON</small></div>
+</div>"""
+    dir_ = lay == "dir"
+    fx, tx = (440, 70) if dir_ else (-160, 580)
+    return f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h)}
+  <img class="logo" src="{A}/logo.png" style="top:56px;width:130px;left:{tx + 65}px;transform:none">
+  <div class="halo" style="width:700px;height:700px;left:{fx + 60}px;top:620px"></div>
+  <img class="foto" src="{foto}" style="width:760px;left:{fx}px;top:{h - 760 + 40}px">
+  <div class="kicker esq" style="top:300px;left:{tx}px;width:auto;font-size:22px;letter-spacing:7px">{e(p['kicker'])}</div>
+  <div class="titulo esq" data-max="430" data-fs="88" style="top:346px;left:{tx}px;right:auto;line-height:1.04">{tit}</div>
+  <p class="sub esq" style="top:{p.get('sub_top', 640)}px;left:{tx}px;width:420px;font-size:28px">{rich(p['sub'])}</p>
+  <p class="citacao" style="top:{p.get('cit_top', 860)}px;left:{tx}px;width:400px;font-size:27px">{rich(p['frase'])}</p>
+  <div class="assina" style="left:{tx}px;top:{p.get('ass_top', 1120)}px;font-size:22px">SÂNY OLIVEIRA<small>Fundador · FORTÍS SOLUÇÕES MATCON</small></div>
+</div>"""
+
+def carrossel(p):
+    w, h = 1080, 1350
+    out = []
+    for i, sl in enumerate(p["slides"]):
+        if sl["tipo"] == "capa":
+            corpo = f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h)}
+  <img class="logo" src="{A}/logo.png" style="top:60px;width:170px">
+  <div class="kicker" style="top:330px;font-size:24px">{e(sl['kicker'])}</div>
+  <div class="titulo" data-max="920" data-fs="130" style="top:390px;line-height:1.02">{''.join(f'<div class="{"metal" if j == len(sl["titulo"]) - 1 else "branco"}">{e(t)}</div>' for j, t in enumerate(sl['titulo']))}</div>
+  <p class="sub" style="top:800px;left:110px;right:110px;font-size:34px">{rich(sl['sub'])}</p>
+  <p class="cta" style="top:1080px;font-size:30px;color:var(--gold)">Deslize para o lado →</p>
+  <div class="rodape" style="bottom:52px;font-size:21px">FORTÍS SOLUÇÕES MATCON</div></div>"""
+        elif sl["tipo"] == "lista":
+            itens = "".join(f'<div class="check"><div class="box">{k+1}</div><div><b>{e(it[0])}</b><span>{e(it[1])}</span></div></div>' for k, it in enumerate(sl["itens"]))
+            corpo = f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h)}
+  <img class="logo" src="{A}/logo.png" style="top:50px;width:110px">
+  <div class="titulo" data-max="920" data-fs="64" style="top:230px;line-height:1.05"><div class="metal">{e(sl['titulo'])}</div></div>
+  <div style="position:absolute;top:360px;left:110px;right:100px">{itens}</div>
+  <div class="rodape" style="bottom:52px;font-size:21px">FORTÍS SOLUÇÕES MATCON</div></div>"""
+        else:
+            corpo = f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h)}
+  <img class="logo" src="{A}/logo.png" style="top:200px;width:220px">
+  <div class="titulo" data-max="920" data-fs="96" style="top:560px;line-height:1.05">{''.join(f'<div class="{"metal" if j == len(sl["titulo"]) - 1 else "branco"}">{e(t)}</div>' for j, t in enumerate(sl['titulo']))}</div>
+  <p class="sub" style="top:800px;left:110px;right:110px;font-size:34px">{rich(sl['sub'])}</p>
+  <div class="rodape" style="bottom:52px;font-size:21px">FORTÍS SOLUÇÕES MATCON</div></div>"""
+        out.append((f"{p['arquivo']}-{i+1}", corpo))
+    return out
+
 def pagina(corpo):
-    return f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS_BASE}</style></head><body>{corpo}<script>{AJUSTE_JS}</script></body></html>'
+    return f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS_BASE}{CSS_EXTRA}</style></head><body>{corpo}<script>{AJUSTE_JS}</script></body></html>'
 
 async def renderizar(itens, saida_dir):
     os.makedirs(saida_dir, exist_ok=True)
@@ -168,7 +241,14 @@ def main(arq):
     semana = json.load(open(arq))
     itens = []
     for p in semana["feed"]:
-        itens.append((p["arquivo"], feed(p), (1080, 1350)))
+        modelo = p.get("modelo", "cards")
+        if modelo == "carrossel":
+            for nome, corpo in carrossel(p):
+                itens.append((nome, corpo, (1080, 1350)))
+        elif modelo == "foto":
+            itens.append((p["arquivo"], feed_foto(p), (1080, 1350)))
+        else:
+            itens.append((p["arquivo"], feed(p), (1080, 1350)))
     for s in semana["stories"]:
         itens.append((s["arquivo"], story(s), (1080, 1920)))
     asyncio.run(renderizar(itens, os.path.join(RAIZ, semana["pasta"])))
