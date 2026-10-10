@@ -2,10 +2,35 @@
   "pasta": "posts/2026-10/semana-12-18",
   "feed": [
     {
-      "arquivo": "2026-10-12-feed-dono-faz-tudo",
+      "arquivo": "2026-10-12-feed-aparecida-criancas",
+      "modelo": "mensagem",
+      "data": "2026-10-12T10:00:00",
+      "kicker": "12 DE OUTUBRO",
+      "titulo": [
+        "NOSSA SENHORA APARECIDA",
+        "E DIA DAS CRIANÇAS"
+      ],
+      "sub": "Um dia de fé, família e gratidão.\nQue as nossas lojas, equipes e famílias sigam construindo **um futuro melhor** para as próximas gerações.",
+      "legenda": "12 de outubro. Dia de Nossa Senhora Aparecida, Padroeira do Brasil, e Dia das Crianças.\n\nUm dia de fé, família e gratidão.\n\nQue as nossas lojas, as nossas equipes e as nossas famílias sigam construindo um futuro melhor para as próximas gerações.\n\nUm abraço a todos os lojistas, colaboradores e às suas famílias.\n\nFORTÍS SOLUÇÕES MATCON"
+    },
+    {
+      "arquivo": "2026-10-12-dica-descanso",
+      "modelo": "dica",
+      "data": "2026-10-12T18:00:00",
+      "kicker": "DICA RÁPIDA",
+      "icone": "coracao",
+      "titulo": [
+        "DESCANSO TAMBÉM",
+        "É GESTÃO"
+      ],
+      "sub": "Dono cansado decide pior. Um dia de pausa com a família **recarrega** a semana inteira.",
+      "legenda": "Dica rápida: descanso também é gestão.\n\nDono cansado decide pior, cobra pior e enxerga menos.\n\nUm dia de pausa com a família recarrega a semana inteira. Aproveite o feriado.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+    },
+    {
+      "arquivo": "2026-10-13-feed-dono-faz-tudo",
       "modelo": "foto",
       "layout": "dir",
-      "data": "2026-10-12T10:00:00",
+      "data": "2026-10-13T10:00:00",
       "kicker": "PALAVRA DO FUNDADOR",
       "titulo": [
         "DONO QUE",
@@ -21,9 +46,9 @@
       "legenda": "Dono que faz tudo não tem tempo para crescer.\n\nEu vejo isso em quase toda loja que visito.\nO dono abre a loja, confere estoque, aprova compra, atende cliente, resolve problema de entrega e ainda fecha o caixa.\n\nNo fim do dia, trabalhou muito.\nMas a loja não andou um passo à frente.\n\nCrescer exige tempo para pensar.\nE esse tempo só aparece quando a loja tem processo, equipe preparada e acompanhamento.\n\nResponda aqui nos comentários: qual tarefa você ainda faz hoje que já deveria estar com a sua equipe?\n\nSâny Oliveira\nFundador · FORTÍS SOLUÇÕES MATCON\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
     },
     {
-      "arquivo": "2026-10-13-feed-meta-de-hoje",
-      "data": "2026-10-13T10:00:00",
-      "kicker": "VENDAS",
+      "arquivo": "2026-10-13-dica-meta-de-hoje",
+      "data": "2026-10-13T18:00:00",
+      "kicker": "DICA RÁPIDA",
       "titulo": [
         "SUA EQUIPE SABE",
         "A META DE HOJE?"
@@ -101,6 +126,19 @@
       "legenda": "Checklist de abertura da loja.\n\nSalve este post e mande para o seu gerente.\n\nSão 5 conferências que levam 15 minutos e evitam o dia inteiro apagando incêndio:\n\n1. Meta do dia definida\n2. Rupturas de ontem verificadas\n3. Orçamentos em aberto com responsável\n4. Entregas do dia conferidas\n5. Equipe alinhada antes do primeiro cliente\n\nRotina simples, todos os dias, vira resultado no fim do mês.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
     },
     {
+      "arquivo": "2026-10-14-dica-validade-orcamento",
+      "modelo": "dica",
+      "data": "2026-10-14T18:00:00",
+      "kicker": "DICA RÁPIDA",
+      "icone": "documento",
+      "titulo": [
+        "ORÇAMENTO COM VALIDADE",
+        "GERA DECISÃO"
+      ],
+      "sub": "Coloque prazo em todo orçamento. O cliente decide mais rápido e você ganha **um motivo para retornar**.",
+      "legenda": "Dica rápida: orçamento com validade gera decisão.\n\nColoque um prazo em todo orçamento, por exemplo: válido por 5 dias.\n\nO cliente decide mais rápido, e você ganha um motivo natural para ligar de volta antes do prazo vencer.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+    },
+    {
       "arquivo": "2026-10-15-feed-lider-que-ensina",
       "modelo": "foto",
       "layout": "centro",
@@ -114,6 +152,19 @@
       "foto_top": 700,
       "sub": "Todo bom gerente também é um **professor**.",
       "legenda": "Líder que ensina forma equipe que entrega.\n\nHoje é Dia do Professor.\nE no varejo de material de construção, todo bom gerente também é um.\n\nEle ensina o vendedor novo a montar um orçamento.\nMostra como atender o cliente de obra.\nExplica o porquê de cada processo, em vez de só cobrar.\n\nEquipe que aprende todo dia erra menos, vende mais e precisa menos do dono.\n\nNossa homenagem a todos os gestores que formam pessoas dentro das lojas.\n\nSâny Oliveira\nFundador · FORTÍS SOLUÇÕES MATCON\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+    },
+    {
+      "arquivo": "2026-10-15-dica-elogie",
+      "modelo": "dica",
+      "data": "2026-10-15T18:00:00",
+      "kicker": "DICA RÁPIDA",
+      "icone": "equipe",
+      "titulo": [
+        "ELOGIE EM PÚBLICO,",
+        "CORRIJA EM PARTICULAR"
+      ],
+      "sub": "Elogio na frente da equipe motiva todo mundo. Correção a sós **preserva o respeito**.",
+      "legenda": "Dica rápida de liderança: elogie em público, corrija em particular.\n\nO elogio na frente da equipe motiva quem recebeu e mostra a todos o que é esperado.\n\nA correção a sós resolve o problema sem tirar o respeito de ninguém.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
     },
     {
       "arquivo": "2026-10-16-feed-como-funciona",
@@ -145,6 +196,19 @@
       "legenda": "Como a Fortís trabalha na sua loja.\n\nSem receita pronta. Cada loja tem a sua realidade, e o trabalho começa dentro dela.\n\n1. Visita: conhecemos a operação no dia a dia, do balcão ao estoque.\n2. Diagnóstico: mostramos onde a loja perde dinheiro e tempo.\n3. Plano e execução: ações práticas, com acompanhamento até o resultado aparecer.\n\nQuer saber como seria na sua loja? Chame a Fortís no WhatsApp: (31) 99898-1530.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
     },
     {
+      "arquivo": "2026-10-16-dica-foto-entrega",
+      "modelo": "dica",
+      "data": "2026-10-16T18:00:00",
+      "kicker": "DICA RÁPIDA",
+      "icone": "camera",
+      "titulo": [
+        "FOTO DA ENTREGA",
+        "NA OBRA"
+      ],
+      "sub": "Peça ao motorista uma foto do material entregue. Evita discussão e **passa confiança** ao cliente.",
+      "legenda": "Dica rápida: foto da entrega na obra.\n\nPeça ao motorista uma foto do material descarregado no local, e mande para o cliente.\n\nEvita discussão sobre falta de material e mostra profissionalismo.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+    },
+    {
       "arquivo": "2026-10-17-feed-cliente-de-obra",
       "data": "2026-10-17T10:00:00",
       "kicker": "ATENDIMENTO",
@@ -174,10 +238,23 @@
       "legenda": "Cliente de obra não compra só preço.\n\nQuem perde venda só para preço muitas vezes perdeu antes, no atendimento.\n\nO que pesa na decisão de quem está tocando uma obra:\n\nMaterial entregue no dia combinado.\nOrçamento respondido no mesmo dia.\nPedreiro e mestre de obras bem atendidos e lembrados.\n\nPreço abre a conversa. Confiança fecha a venda.\n\nResponda aqui nos comentários: na sua loja, qual desses três pontos ainda falha?\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
     },
     {
+      "arquivo": "2026-10-17-dica-tres-numeros",
+      "modelo": "dica",
+      "data": "2026-10-17T18:00:00",
+      "kicker": "DICA RÁPIDA",
+      "icone": "grafico",
+      "titulo": [
+        "FECHE O DIA COM",
+        "3 NÚMEROS"
+      ],
+      "sub": "Faturamento do dia, ticket médio e orçamentos em aberto. **Dois minutos** que mostram como a loja está.",
+      "legenda": "Dica rápida: feche o dia com 3 números.\n\nFaturamento do dia.\nTicket médio.\nOrçamentos em aberto.\n\nDois minutos no fechamento da loja mostram se o mês está no ritmo certo.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+    },
+    {
       "arquivo": "2026-10-18-feed-10-horas",
       "modelo": "foto",
       "layout": "esq",
-      "data": "2026-10-18T19:00:00",
+      "data": "2026-10-18T10:00:00",
       "kicker": "PERGUNTA DE DOMINGO",
       "titulo": [
         "O QUE VOCÊ",
@@ -191,30 +268,43 @@
       "frase": "Gestão boa **devolve tempo** para o dono.",
       "ass_top": 1110,
       "legenda": "O que você faria com 10 horas a mais por semana?\n\nÉ o tempo que muitos donos de loja gastam resolvendo o que a equipe poderia resolver sozinha.\n\nAprovar compra pequena.\nConferir entrega.\nResponder dúvida que já tem resposta.\n\nGestão boa devolve tempo para o dono.\nTempo para pensar no crescimento, cuidar dos clientes maiores e, por que não, da família.\n\nResponda aqui nos comentários: o que você faria com essas 10 horas?\n\nSâny Oliveira\nFundador · FORTÍS SOLUÇÕES MATCON\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+    },
+    {
+      "arquivo": "2026-10-18-dica-uma-prioridade",
+      "modelo": "dica",
+      "data": "2026-10-18T18:00:00",
+      "kicker": "DICA RÁPIDA",
+      "icone": "alvo",
+      "titulo": [
+        "UMA PRIORIDADE",
+        "PARA A SEMANA"
+      ],
+      "sub": "Quem tenta resolver tudo não resolve nada. Escolha **uma** e cobre só ela até sexta.",
+      "legenda": "Dica rápida de domingo: escolha uma prioridade para a semana.\n\nQuem tenta resolver tudo ao mesmo tempo não termina nada.\n\nEscolha uma só, conte para a equipe e acompanhe até sexta.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
     }
   ],
   "stories": [
     {
       "arquivo": "2026-10-12-story-06h",
       "data": "2026-10-12T06:00:00",
-      "kicker": "BOM DIA, LOJISTA",
+      "kicker": "BOM FERIADO, LOJISTA",
       "titulo": [
-        "FERIADO TAMBÉM",
-        "É DIA DE VENDER"
+        "FÉ, FAMÍLIA",
+        "E GRATIDÃO"
       ],
-      "sub": "Quem abre hoje atende o cliente que **não encontrou** a loja do lado aberta.",
-      "frase": "Boa semana e bom feriado."
+      "sub": "Um ótimo 12 de outubro para você, sua equipe e **sua família**.",
+      "frase": "Dia de Nossa Senhora Aparecida e Dia das Crianças."
     },
     {
       "arquivo": "2026-10-12-story-19h",
       "data": "2026-10-12T19:00:00",
-      "kicker": "HOJE NO FEED",
+      "kicker": "DICA DE HOJE",
       "titulo": [
-        "DONO QUE FAZ TUDO",
-        "NÃO TEM TEMPO PARA CRESCER"
+        "DESCANSO TAMBÉM",
+        "É GESTÃO"
       ],
-      "sub": "Loja forte **depende de processo**, não do dono o tempo todo.",
-      "frase": "Toque no perfil e leia o post completo."
+      "sub": "Dono cansado decide pior. **Recarregue** para a semana.",
+      "frase": "Toque no perfil e veja a dica completa."
     },
     {
       "arquivo": "2026-10-13-story-06h",
@@ -232,10 +322,10 @@
       "data": "2026-10-13T19:00:00",
       "kicker": "HOJE NO FEED",
       "titulo": [
-        "SUA EQUIPE SABE",
-        "A META DE HOJE?"
+        "DONO QUE FAZ TUDO",
+        "NÃO TEM TEMPO PARA CRESCER"
       ],
-      "sub": "Meta do mês assusta. Meta do dia **direciona**.",
+      "sub": "Loja forte **depende de processo**, não do dono o tempo todo.",
       "frase": "Toque no perfil e leia o post completo."
     },
     {

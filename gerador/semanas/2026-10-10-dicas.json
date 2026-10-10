@@ -1,0 +1,32 @@
+{
+  "pasta": "posts/2026-10/semana-05-11",
+  "feed": [
+    {
+      "arquivo": "2026-10-10-dica-pedido-nao-atendido",
+      "modelo": "dica",
+      "data": "2026-10-10T18:00:00",
+      "kicker": "DICA RÁPIDA",
+      "icone": "lista",
+      "titulo": [
+        "ANOTE TODO PEDIDO",
+        "QUE VOCÊ NÃO ATENDEU"
+      ],
+      "sub": "Item que o cliente pediu e não tinha vai para uma lista no balcão. Em 30 dias, ela mostra **o que comprar**.",
+      "legenda": "Dica rápida: anote todo pedido que você não atendeu.\n\nO cliente pediu e não tinha? Vai para uma lista simples no balcão: produto, quantidade e data.\n\nEm 30 dias essa lista mostra o que sua loja precisa comprar e quanto de venda está deixando passar.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+    },
+    {
+      "arquivo": "2026-10-11-dica-revise-a-semana",
+      "modelo": "dica",
+      "data": "2026-10-11T10:00:00",
+      "kicker": "DICA RÁPIDA",
+      "icone": "grafico",
+      "titulo": [
+        "REVEJA A SEMANA",
+        "EM 10 MINUTOS"
+      ],
+      "sub": "Qual dia vendeu mais, qual produto mais saiu e qual vendedor se destacou. **Três respostas** para planejar a próxima.",
+      "legenda": "Dica rápida de domingo: reveja a semana em 10 minutos.\n\nTrês perguntas bastam:\nQual dia vendeu mais?\nQual produto mais saiu?\nQual vendedor se destacou?\n\nAs respostas mostram onde reforçar na semana que vem.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+    }
+  ],
+  "stories": []
+}

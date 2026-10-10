@@ -31,6 +31,8 @@ ICONES = {
  "giro": '<path d="M48 22a18 18 0 1 0 3 16"/><path d="M50 10v12H38"/>',
  "lista": '<path d="M24 16h28M24 32h28M24 48h28"/><path d="M10 14l3 3 5-6M10 30l3 3 5-6M10 46l3 3 5-6"/>',
  "calendario": '<rect x="10" y="14" width="44" height="40" rx="4"/><path d="M10 26h44M22 8v12M42 8v12M20 36h6M30 36h6M40 36h6M20 44h6"/>',
+ "coracao": '<path d="M32 54C14 40 8 31 8 22a12 12 0 0 1 24-4 12 12 0 0 1 24 4c0 9-6 18-24 32z"/>',
+ "camera": '<rect x="8" y="18" width="48" height="34" rx="5"/><circle cx="32" cy="35" r="10"/><path d="M22 18l4-6h12l4 6"/>',
  "carrinho": '<path d="M6 10h8l6 30h30l6-20H18"/><circle cx="24" cy="50" r="4"/><circle cx="46" cy="50" r="4"/>',
 }
 
@@ -217,6 +219,30 @@ def carrossel(p):
         out.append((f"{p['arquivo']}-{i+1}", corpo))
     return out
 
+def dica(p):
+    w, h = 1080, 1350
+    tit = "".join(f'<div class="{"metal" if i == len(p["titulo"]) - 1 else "branco"}">{e(t)}</div>' for i, t in enumerate(p["titulo"]))
+    return f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h,.9)}
+  <img class="logo" src="{A}/logo.png" style="top:54px;width:150px">
+  <div class="kicker" style="top:290px;font-size:24px">{e(p.get('kicker', 'DICA RÁPIDA'))}</div>
+  <div class="card" style="position:absolute;left:465px;top:350px;width:150px;height:150px;border-radius:50%;display:flex;align-items:center;justify-content:center">{icone(p['icone'], 84)}</div>
+  <div class="titulo" data-max="920" data-fs="104" style="top:540px;line-height:1.03">{tit}</div>
+  <p class="sub" style="top:{p.get('sub_top', 790)}px;left:110px;right:110px;font-size:34px">{rich(p['sub'])}</p>
+  <p class="cta" style="top:1110px;font-size:28px;color:var(--gold)">{rich(p.get('frase', 'Salve este post para usar depois.'))}</p>
+  <div class="rodape" style="bottom:52px;font-size:21px">FORTÍS SOLUÇÕES MATCON</div>
+</div>"""
+
+def mensagem(p):
+    w, h = 1080, 1350
+    tit = "".join(f'<div class="{"metal" if i == len(p["titulo"]) - 1 else "branco"}">{e(t)}</div>' for i, t in enumerate(p["titulo"]))
+    return f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h,.9)}
+  <img class="logo" src="{A}/logo.png" style="top:150px;width:220px">
+  <div class="kicker" style="top:480px;font-size:26px">{e(p['kicker'])}</div>
+  <div class="titulo" data-max="920" data-fs="92" style="top:540px;line-height:1.05">{tit}</div>
+  <p class="sub" style="top:{p.get('sub_top', 800)}px;left:120px;right:120px;font-size:34px">{rich(p['sub'])}</p>
+  <div class="rodape" style="bottom:52px;font-size:21px">FORTÍS SOLUÇÕES MATCON</div>
+</div>"""
+
 def pagina(corpo):
     return f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS_BASE}{CSS_EXTRA}</style></head><body>{corpo}<script>{AJUSTE_JS}</script></body></html>'
 
@@ -245,6 +271,10 @@ def main(arq):
         if modelo == "carrossel":
             for nome, corpo in carrossel(p):
                 itens.append((nome, corpo, (1080, 1350)))
+        elif modelo == "dica":
+            itens.append((p["arquivo"], dica(p), (1080, 1350)))
+        elif modelo == "mensagem":
+            itens.append((p["arquivo"], mensagem(p), (1080, 1350)))
         elif modelo == "foto":
             itens.append((p["arquivo"], feed_foto(p), (1080, 1350)))
         else:
