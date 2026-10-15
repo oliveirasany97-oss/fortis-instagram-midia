@@ -35,7 +35,10 @@ def seed():
                'historico': [{'acao': 'aberto', 'por': random.choice(vend), 'em': iso(d)}]}
         if tp == 'encomenda':
             dem.update({'cliente': random.choice(['Cliente Exemplo 1', 'Cliente Exemplo 2', 'Cliente Exemplo 3']), 'telefone': '(00) 90000-0000', 'prazo': (datetime.now() + timedelta(days=5)).date().isoformat(), 'valorNegociado': random.choice([480.0, 1250.0, 2300.0])})
+        if st in ('comprado','resolvido'): dem['ocValor'] = random.choice([860.0, 1240.0, 2150.0, 3480.0, 4720.0])
         s[f'{B}/demandas/dm{i:03d}'] = dem
+    for j,(pp,vt) in enumerate([('Porcelanato 60x60 Cinza',640.0),('Telha Fibrocimento 2,44m',312.0),('Tinta Acrílica 18L Branco',489.0)]):
+        s[f'{B}/demandas/av{j}'] = {'tipo':'avaria','status':'resolvido','produto':pp,'marca':'Marca F','categoria':'Pisos','unidade':'un','qtd':'2','valorTotal':vt,'vendedor':'Lucas Almoxarife','perfil':'almoxarife','criadoEm':iso(3+j*4),'atualizadoEm':iso(2),'comentarios':[],'historico':[]}
     # filas de compra por marca, com as demandas "na_fila"
     filas = {}
     for k, dem in [(k, v) for k, v in s.items() if '/demandas/' in k]:
