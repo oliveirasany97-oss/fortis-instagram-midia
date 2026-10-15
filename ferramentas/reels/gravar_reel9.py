@@ -1,0 +1,31 @@
+"""Reel 9 — Avarias: registrar, ver o prejuízo e cobrar o fornecedor."""
+from rec import Rec, rodar
+r = Rec('reel9')
+async def f(pw):
+    pg = await r.abrir(pw)
+    await r.nav('Avarias', 1800)
+    await r.start(); r.mark('H0'); await r.w(400)
+    await r.rolar(240, 1300); r.mark('H1')
+    await r.pg.evaluate("window.scrollTo({top:0,behavior:'smooth'})"); await r.w(700)
+    # PASSO 1: registrar a avaria
+    r.mark('A0')
+    await r.tap(pg.get_by_text('+ Registrar')); await r.w(1100)
+    await r.tap(pg.locator("#avTipoGrid [onclick*=defeito]")); await r.w(500)
+    await r.digitar('#avProd', 'Revestimento 32x57 Branco', 55)
+    await r.digitar('#avMarca', 'Marca K', 70)
+    await r.digitar('#avNF', '4712', 90)
+    await r.digitar('#avQtd', '8', 120)
+    await r.digitar('#avCustoUnit', '42.90', 110); await r.w(600)
+    await r.centro("document.getElementById('avValorTotal')", 900)
+    await r.digitar('#avObs', 'Caixas amassadas, 8 peças quebradas.', 40); await r.w(500)
+    r.mark('A1')
+    await r.tap(pg.locator("button[onclick='salvarAvaria()']")); await r.w(2200)
+    await r.pg.evaluate("window.scrollTo({top:0,behavior:'smooth'})"); await r.w(1200)
+    await r.rolar(300, 1400); await r.w(600)
+    r.mark('B1')
+    # PASSO 3: cobrar o fornecedor
+    await r.nav('Avarias', 1300)
+    await r.tap(pg.locator('text=Notificar fornecedor >> visible=true')); await r.w(1800)
+    await r.rolar(200, 1200); await r.w(800); r.mark('C1')
+    await r.stop(); await r.foto('fim'); await r.fechar()
+rodar(f)

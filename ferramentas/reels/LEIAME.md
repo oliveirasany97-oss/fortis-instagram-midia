@@ -16,3 +16,8 @@ Fluxo de um reel: `python3 gravar_reelN.py` (screencast CDP 1080x2338, marcas de
 `python3 montar_reelN.py voz.mp3 0,c1,c2,...` (cortes = início de cada cena, achados com
 `ffmpeg -af silencedetect=noise=-38dB:d=0.2`). `reelkit.py` tem cards, `cta_diag()` e a montagem;
 `montar_reel5.py` tem a função `gancho()` (abertura com tela em movimento).
+
+A partir do reel 7: `rec.py` (classe `Rec`) concentra a gravação (toques, digitação, rolagem, marcas) e
+`reelkit.gancho()` faz a abertura em movimento. Cada reel tem `gravar_reelN.py` + `montar_reelN.py`
+(sem argumentos = versão sem som; com `voz.mp3 cortes` = narrada). O `demo.py` também semeia o módulo
+Avarias e filas de compra mais cheias (marcas D e E).

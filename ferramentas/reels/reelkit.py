@@ -78,3 +78,9 @@ def cta_diag(lista):
    <div class="top" style="top:1140px"><span class="preco"><span style="font-family:Osw;font-weight:700;font-size:58px;color:var(--gold);letter-spacing:1px">PEÇA SEU DIAGNÓSTICO</span></span></div>
    <div class="txt" style="top:1300px;font-size:40px"><b>Chame no direct.</b></div>
    <div class="rodape" style="top:1420px;font-size:24px">FORTÍS SOLUÇÕES MATCON</div>''',logo_top=230)
+
+def gancho(linhas, fs=76):
+    """Abertura com a tela do FLOW já em movimento e a pergunta-gancho em dourado por cima (padrão a partir do reel 5)."""
+    return base(f'''<div class="big metal" style="top:205px;font-size:{fs}px;line-height:1.04">{linhas}</div>
+   <div class="moldura" style="left:{PX-6}px;top:{PY-6}px;width:{PW+12}px;height:{PH+12}px"></div>
+   <div class="top" style="top:{PY+PH+34}px;font-weight:600;letter-spacing:8px;color:var(--gold);font-size:22px">FORTÍS FLOW · TELA REAL · DADOS FICTÍCIOS</div>''')

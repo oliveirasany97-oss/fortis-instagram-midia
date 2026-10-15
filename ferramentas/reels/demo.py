@@ -39,6 +39,21 @@ def seed():
         s[f'{B}/demandas/dm{i:03d}'] = dem
     for j,(pp,vt) in enumerate([('Porcelanato 60x60 Cinza',640.0),('Telha Fibrocimento 2,44m',312.0),('Tinta Acrílica 18L Branco',489.0)]):
         s[f'{B}/demandas/av{j}'] = {'tipo':'avaria','status':'resolvido','produto':pp,'marca':'Marca F','categoria':'Pisos','unidade':'un','qtd':'2','valorTotal':vt,'vendedor':'Lucas Almoxarife','perfil':'almoxarife','criadoEm':iso(3+j*4),'atualizadoEm':iso(2),'comentarios':[],'historico':[]}
+    # fila de compras mais cheia (reel 8): itens de ruptura já na fila das marcas E e D
+    extra = [('Cabo Flexível 2,5mm 100m','Marca E','Elétrica','rl','12'),('Disjuntor 32A','Marca E','Elétrica','un','30'),('Tomada 10A Branca','Marca E','Elétrica','un','60'),
+             ('Interruptor Simples','Marca E','Elétrica','un','40'),('Lâmpada LED 9W','Marca E','Elétrica','un','100'),
+             ('Joelho PVC 100mm','Marca D','Hidráulica','un','50'),('Cola PVC 175g','Marca D','Hidráulica','un','24'),('Registro de Pressão 3/4','Marca D','Hidráulica','un','15')]
+    for j,(pp,mc,ct,un,q) in enumerate(extra):
+        s[f'{B}/demandas/fx{j}'] = {'tipo':'ruptura','status':'na_fila','produto':pp,'marca':mc,'categoria':ct,'unidade':un,'qtdSugerida':q,'qtd':q,'urgencia':'media',
+            'vendedor':vend[j%3],'perfil':'vendedor','criadoEm':iso(2+j%4,j),'atualizadoEm':iso(1),'comentarios':[],'estoqueAtual':'0','historico':[]}
+    # módulo Avarias (coleção própria)
+    for j,(pp,mc,tp,st,q,un,vt,obs,dd) in enumerate([
+        ('Porcelanato 60x60 Cinza','Marca F','defeito','identificada','6','m²',640.0,'6 peças trincadas na descarga. Fotos tiradas na hora.',0),
+        ('Telha Fibrocimento 2,44m','Marca H','defeito','notificada','4','un',312.0,'Telhas quebradas no fundo do palete.',2),
+        ('Tinta Acrílica 18L Branco','Marca C','entrega_errada','em_negociacao','3','gl',489.0,'Veio cor gelo no lugar de branco.',5),
+        ('Cimento CP II 50kg','Marca A','qtd_divergente','ressarcida','10','sc',385.0,'Nota com 100 sacos, chegaram 90.',9)]):
+        s[f'{B}/avarias/avr{j}']={'id':f'avr{j}','produto':pp,'marca':mc,'tipo':tp,'status':st,'qtd':q,'unidade':un,'valorTotal':vt,'obs':obs,'nf':f'{4500+j*37}',
+            'registradoPor':'Lucas Almoxarife','registradoEm':iso(dd,1),'atualizadoEm':iso(max(dd-1,0))}
     # filas de compra por marca, com as demandas "na_fila"
     filas = {}
     for k, dem in [(k, v) for k, v in s.items() if '/demandas/' in k]:
