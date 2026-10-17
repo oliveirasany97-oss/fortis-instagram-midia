@@ -243,6 +243,26 @@ def mensagem(p):
   <div class="rodape" style="bottom:52px;font-size:21px">FORTÍS SOLUÇÕES MATCON</div>
 </div>"""
 
+def tela(p):
+    """Post com print real do FORTÍS FLOW num celular (texto à esquerda, celular à direita)."""
+    w, h = 1080, 1350
+    tit = "".join(f'<div class="{"metal" if i == len(p["titulo"]) - 1 else "branco"}">{e(t)}</div>' for i, t in enumerate(p["titulo"]))
+    itens = "".join(f'<div class="check" style="margin-bottom:22px"><div class="box">{k+1}</div><div><b>{e(it[0])}</b><span>{e(it[1])}</span></div></div>' for k, it in enumerate(p["itens"]))
+    img = f"{A}/telas/{p['tela']}.png"
+    return f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h)}
+  <img class="logo" src="{A}/logo.png" style="top:54px;width:130px;left:135px;transform:none">
+  <div class="kicker esq" style="top:270px;left:70px;width:auto;font-size:21px;letter-spacing:7px">{e(p['kicker'])}</div>
+  <div class="titulo esq" data-max="480" data-fs="78" style="top:312px;left:70px;right:auto;line-height:1.04">{tit}</div>
+  <style>.tl .check{{gap:18px}} .tl .check .box{{flex:0 0 48px;height:48px;font-size:26px}} .tl .check b{{font-size:27px}} .tl .check span{{font-size:20px}}</style>
+  <div class="tl" style="position:absolute;top:{p.get('itens_top', 610)}px;left:70px;width:480px">{itens}</div>
+  <p class="citacao" style="top:{p.get('cit_top', 1080)}px;left:70px;width:470px;font-size:25px">{rich(p['frase'])}</p>
+  <div class="halo" style="width:560px;height:900px;left:520px;top:260px"></div>
+  <div style="position:absolute;left:590px;top:150px;width:430px;height:931px;border-radius:52px;border:10px solid #0b1424;outline:3px solid rgba(217,181,121,.85);box-shadow:0 0 50px rgba(217,181,121,.25),0 40px 80px rgba(0,0,0,.6);overflow:hidden;background:#0E1F39">
+    <img src="{img}" style="width:100%;display:block"></div>
+  <div style="position:absolute;left:590px;width:430px;top:1105px;text-align:center;font-weight:600;letter-spacing:5px;color:var(--gold);font-size:16px">TELA REAL · DADOS FICTÍCIOS</div>
+  <div class="rodape" style="bottom:52px;font-size:21px">FORTÍS SOLUÇÕES MATCON</div>
+</div>"""
+
 def pagina(corpo):
     return f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS_BASE}{CSS_EXTRA}</style></head><body>{corpo}<script>{AJUSTE_JS}</script></body></html>'
 
@@ -275,6 +295,8 @@ def main(arq):
             itens.append((p["arquivo"], dica(p), (1080, 1350)))
         elif modelo == "mensagem":
             itens.append((p["arquivo"], mensagem(p), (1080, 1350)))
+        elif modelo == "tela":
+            itens.append((p["arquivo"], tela(p), (1080, 1350)))
         elif modelo == "foto":
             itens.append((p["arquivo"], feed_foto(p), (1080, 1350)))
         else:
