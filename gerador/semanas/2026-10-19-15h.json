@@ -1,0 +1,172 @@
+{
+ "pasta": "posts/2026-10/semana-19-25",
+ "stories": [],
+ "feed": [
+  {
+   "arquivo": "2026-10-20-15h-checklist-abertura",
+   "modelo": "carrossel",
+   "data": "2026-10-20T15:00:00",
+   "formato": "Mande para sua equipe",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "MANDE PARA SUA EQUIPE",
+     "titulo": [
+      "CHECKLIST DE",
+      "ABERTURA",
+      "DA LOJA"
+     ],
+     "sub": "Cinco minutos antes de abrir a porta evitam **o dia inteiro apagando incêndio**.",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "ANTES DE ABRIR A PORTA",
+     "itens": [
+      [
+       "Loja pronta para vender",
+       "Luzes, caixa e sistema ligados; fachada e entrada livres"
+      ],
+      [
+       "Frente da loja abastecida",
+       "Gôndolas da entrada repostas com o que tem no estoque"
+      ],
+      [
+       "Faltas de ontem viraram pedido?",
+       "O que acabou precisa estar com o comprador"
+      ],
+      [
+       "Entregas do dia conferidas",
+       "Pedidos separados e rota definida antes do caminhão sair"
+      ],
+      [
+       "Conversa de 5 minutos",
+       "Meta do dia e a prioridade de cada um"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "SALVOU?",
+      "MANDE PARA QUEM",
+      "ABRE A LOJA."
+     ],
+     "sub": "Rotina simples, repetida todo dia, é o que faz a loja **andar sem depender do dono**.",
+     "sub_top": 930
+    }
+   ],
+   "legenda": "Checklist de abertura da loja: salve e mande para quem abre a porta amanhã.\n\n1. Loja pronta para vender: luzes, caixa e sistema ligados\n2. Frente da loja abastecida\n3. Faltas de ontem viraram pedido\n4. Entregas do dia conferidas e com rota\n5. Conversa de 5 minutos: meta do dia e prioridades\n\nRotina simples, repetida todo dia, é o que faz a loja andar sem depender do dono.\n\nQual item a sua equipe mais esquece? Conta aqui nos comentários.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #GestaoDeLojas #VarejoMatcon #MinasGerais #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-10-22-15h-conta-ruptura",
+   "modelo": "carrossel",
+   "data": "2026-10-22T15:00:00",
+   "formato": "A conta da loja",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "A CONTA DA LOJA",
+     "titulo": [
+      "QUANTO CUSTA",
+      "A RUPTURA",
+      "POR SEMANA?"
+     ],
+     "sub": "Números de exemplo. Troque pelos da **sua loja** e veja o tamanho da conta.",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "A CONTA, PASSO A PASSO",
+     "itens": [
+      [
+       "3 vendas perdidas por dia",
+       "O cliente pede, o produto acabou, ele compra no concorrente"
+      ],
+      [
+       "× R$ 150 de ticket médio",
+       "R$ 450 por dia que não entram no caixa"
+      ],
+      [
+       "× 6 dias de loja aberta",
+       "R$ 2.700 por semana em vendas perdidas"
+      ],
+      [
+       "× 30% de margem",
+       "R$ 810 de lucro perdido por semana"
+      ],
+      [
+       "× 4 semanas",
+       "R$ 3.240 de lucro a menos no mês"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "E NA SUA",
+      "LOJA?"
+     ],
+     "sub": "Vendas perdidas por dia × ticket médio × dias abertos. Quer fazer essa conta com a gente? **Diagnóstico gratuito no link da bio.**"
+    }
+   ],
+   "legenda": "Quanto custa a ruptura na sua loja por semana?\n\nUm exemplo:\n3 vendas perdidas por dia × R$ 150 de ticket médio = R$ 450 por dia\n× 6 dias = R$ 2.700 por semana em vendas que não entraram\n× 30% de margem = R$ 810 de lucro perdido por semana\n× 4 semanas = R$ 3.240 a menos no mês\n\nOs números são de exemplo. Faça a conta com os da sua loja e conta aqui: o resultado te assustou?\n\nQuer fazer essa conta com a gente? Diagnóstico gratuito pelo link da bio.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #RupturaDeEstoque #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-10-23-15h-checklist-recebimento",
+   "modelo": "carrossel",
+   "data": "2026-10-23T15:00:00",
+   "formato": "Mande para sua equipe",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "MANDE PARA SUA EQUIPE",
+     "titulo": [
+      "CHECKLIST DE",
+      "RECEBIMENTO DE",
+      "MERCADORIA"
+     ],
+     "sub": "Avaria que ninguém anota na descarga **vira prejuízo da loja**.",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "NA HORA DA DESCARGA",
+     "itens": [
+      [
+       "Confira a nota antes de descarregar",
+       "Produto e quantidade batem com o pedido?"
+      ],
+      [
+       "Olhe cada volume",
+       "Palete aberto, embalagem rasgada, cor e lote"
+      ],
+      [
+       "Avaria? Foto na hora",
+       "Antes do motorista ir embora, junto com a nota"
+      ],
+      [
+       "Ressalva por escrito",
+       "Anote no canhoto o que chegou errado ou quebrado"
+      ],
+      [
+       "Avise o comprador no mesmo dia",
+       "Falta e avaria viram cobrança, não esquecimento"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "SALVOU?",
+      "MANDE PARA QUEM",
+      "RECEBE A CARGA."
+     ],
+     "sub": "O fornecedor paga o que quebrou **quando a loja registra na hora**.",
+     "sub_top": 930
+    }
+   ],
+   "legenda": "Checklist de recebimento de mercadoria: salve e mande para quem recebe a carga na sua loja.\n\n1. Confira a nota antes de descarregar\n2. Olhe cada volume: palete, embalagem, cor e lote\n3. Avaria? Foto na hora, antes do motorista ir embora\n4. Ressalva por escrito no canhoto\n5. Avise o comprador no mesmo dia\n\nO fornecedor paga o que quebrou quando a loja registra na hora.\n\nNa sua loja, quem confere a carga? Conta aqui nos comentários.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #RecebimentoDeMercadoria #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+  }
+ ]
+}

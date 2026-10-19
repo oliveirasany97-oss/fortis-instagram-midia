@@ -200,7 +200,7 @@ def carrossel(p):
   <img class="logo" src="{A}/logo.png" style="top:60px;width:170px">
   <div class="kicker" style="top:330px;font-size:24px">{e(sl['kicker'])}</div>
   <div class="titulo" data-max="920" data-fs="130" style="top:390px;line-height:1.02">{''.join(f'<div class="{"metal" if j == len(sl["titulo"]) - 1 else "branco"}">{e(t)}</div>' for j, t in enumerate(sl['titulo']))}</div>
-  <p class="sub" style="top:800px;left:110px;right:110px;font-size:34px">{rich(sl['sub'])}</p>
+  <p class="sub" style="top:{sl.get('sub_top', 800)}px;left:110px;right:110px;font-size:34px">{rich(sl['sub'])}</p>
   <p class="cta" style="top:1080px;font-size:30px;color:var(--gold)">Deslize para o lado →</p>
   <div class="rodape" style="bottom:52px;font-size:21px">FORTÍS SOLUÇÕES MATCON</div></div>"""
         elif sl["tipo"] == "lista":
@@ -214,7 +214,7 @@ def carrossel(p):
             corpo = f"""<div class="arte" style="width:{w}px;height:{h}px">{fundo(w,h)}
   <img class="logo" src="{A}/logo.png" style="top:200px;width:220px">
   <div class="titulo" data-max="920" data-fs="96" style="top:560px;line-height:1.05">{''.join(f'<div class="{"metal" if j == len(sl["titulo"]) - 1 else "branco"}">{e(t)}</div>' for j, t in enumerate(sl['titulo']))}</div>
-  <p class="sub" style="top:800px;left:110px;right:110px;font-size:34px">{rich(sl['sub'])}</p>
+  <p class="sub" style="top:{sl.get('sub_top', 800)}px;left:110px;right:110px;font-size:34px">{rich(sl['sub'])}</p>
   <div class="rodape" style="bottom:52px;font-size:21px">FORTÍS SOLUÇÕES MATCON</div></div>"""
         out.append((f"{p['arquivo']}-{i+1}", corpo))
     return out
