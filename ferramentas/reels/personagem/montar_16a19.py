@@ -25,6 +25,27 @@ REELS = {
    'C': k('A PERGUNTA DO CAIXA') + t1('"JÁ TEM TUDO PARA<br>TERMINAR O SERVIÇO?"', 300, 78, 'metal'),
    'R': t1('UM ITEM A MAIS', 270, 80) + t1('POR VENDA', 360, 110, 'metal') + s('muda o <b>faturamento do mês</b>.', 520),
  }, ['r16H', 'r16A', 'r16B', 'r16C', 'r16H']),
+ 17: ('preco-errado-na-gondola', {
+   'H': t1('O PREÇO DA PRATELEIRA<br>BATE COM O DO CAIXA?', 250, 80, 'metal'),
+   'A': k('ETIQUETA MOSTRA MENOS') + t1('DAR O DESCONTO', 290, 84, 'metal') + s('ou perder a <b>confiança do cliente</b>', 420),
+   'B': k('ETIQUETA MOSTRA MAIS') + t1('O CLIENTE<br>NEM LEVA', 290, 104, 'metal'),
+   'C': k('TODA SEGUNDA-FEIRA') + t1('CONFIRA AS ETIQUETAS<br>DOS ITENS REAJUSTADOS', 290, 72, 'metal'),
+   'R': t1('PREÇO CERTO NA GÔNDOLA', 270, 70) + t1('É MARGEM<br>PROTEGIDA', 360, 104, 'metal'),
+ }, ['r17H', 'r17A', 'r17B', 'r17C', 'r17H']),
+ 18: ('inventario-rotativo', {
+   'H': t1('VOCÊ FECHA A LOJA<br>PARA CONTAR<br>O ESTOQUE?', 250, 88, 'metal'),
+   'A': k('FAÇA O ROTATIVO') + t1('20 ITENS<br>POR SEMANA', 290, 110, 'metal') + s('começando pelos de <b>maior giro e valor</b>', 560),
+   'B': k('ACHOU DIFERENÇA? INVESTIGUE NA HORA') + t1('ENTRADA SEM NOTA<br>VENDA SEM BAIXA<br>AVARIA SEM REGISTRO', 290, 66, 'metal'),
+   'C': k('O RESULTADO') + t1('ESTOQUE EM QUE<br>VOCÊ PODE CONFIAR', 290, 84, 'metal'),
+   'R': t1('INVENTÁRIO UMA VEZ', 270, 74) + t1('POR ANO<br>CHEGA TARDE', 360, 100, 'metal'),
+ }, ['r18H', 'r18A', 'r18B', 'r18C', 'r18H']),
+ 19: ('comissao-que-premia-margem', {
+   'H': t1('SEU VENDEDOR<br>GANHA MAIS QUANDO<br>DÁ DESCONTO?', 250, 84, 'metal'),
+   'A': k('COMISSÃO SÓ SOBRE VOLUME') + t1('QUEM PAGA<br>É A MARGEM', 290, 104, 'metal'),
+   'B': k('COLOQUE A MARGEM NA REGRA') + t1('COMISSÃO MAIOR<br>PARA MARGEM<br>SAUDÁVEL', 290, 84, 'metal'),
+   'C': k('O RESULTADO') + t1('O VENDEDOR<br>DEFENDE O PREÇO', 290, 90, 'metal') + s('junto com você', 520),
+   'R': t1('COMISSÃO CERTA', 270, 80) + t1('ALINHA A EQUIPE<br>AO LUCRO', 360, 96, 'metal'),
+ }, ['r19H', 'r19A', 'r19B', 'r19C', 'r19H']),
 }
 
 n = int(sys.argv[1]); slug, OV, IMGS = REELS[n]
