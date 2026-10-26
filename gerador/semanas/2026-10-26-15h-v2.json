@@ -1,0 +1,409 @@
+{
+ "pasta": "posts/2026-10/semana-26-01",
+ "feed": [
+  {
+   "arquivo": "2026-10-26-15h-vendedor-novo",
+   "modelo": "carrossel",
+   "data": "2026-10-26T15:00:00",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "MANDE PARA SUA EQUIPE",
+     "titulo": [
+      "A PRIMEIRA",
+      "SEMANA DO",
+      "VENDEDOR NOVO"
+     ],
+     "sub": "Quem é largado no balcão no primeiro dia **aprende os vícios da loja**, não o jeito certo.",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "DO 1º AO 5º DIA",
+     "itens": [
+      [
+       "Dia 1: conhecer a loja",
+       "Corredores, depósito, quem é quem e o que cada um resolve"
+      ],
+      [
+       "Dia 2: acompanhar um vendedor",
+       "Só observar atendimentos, do bom-dia ao caixa"
+      ],
+      [
+       "Dia 3: produtos de maior giro",
+       "Os 20 itens que mais saem, preço e aplicação"
+      ],
+      [
+       "Dia 4: atender com padrinho",
+       "Ele atende, o padrinho ajuda e corrige depois"
+      ],
+      [
+       "Dia 5: conversa de 15 minutos",
+       "O que aprendeu, o que travou e a meta da próxima semana"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "SALVOU?",
+      "MANDE PARA QUEM",
+      "TREINA A EQUIPE."
+     ],
+     "sub": "Uma semana bem feita poupa **meses de retrabalho** no balcão.",
+     "sub_top": 930
+    }
+   ],
+   "legenda": "A primeira semana do vendedor novo: salve e mande para quem treina a equipe.\n\nDia 1: conhecer a loja e quem resolve o quê\nDia 2: acompanhar um vendedor, só observando\nDia 3: os 20 produtos de maior giro\nDia 4: atender com um padrinho ao lado\nDia 5: conversa de 15 minutos sobre o que aprendeu e o que travou\n\nQuem é largado no balcão no primeiro dia aprende os vícios da loja, não o jeito certo.\n\nNa sua loja, quem treina o vendedor novo? Conta aqui nos comentários.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #TreinamentoDeEquipe #GestaoDeLojas #VarejoMatcon #MinasGerais #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-10-27-15h-conta-cliente-obra",
+   "modelo": "carrossel",
+   "data": "2026-10-27T15:00:00",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "A CONTA DA LOJA",
+     "titulo": [
+      "QUANTO VALE",
+      "UM CLIENTE",
+      "DE OBRA?"
+     ],
+     "sub": "Números de exemplo. Troque pelos da **sua loja** e veja o que está em jogo.",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "A CONTA, PASSO A PASSO",
+     "itens": [
+      [
+       "Uma obra dura 8 meses",
+       "Da fundação ao acabamento, ele volta à loja várias vezes"
+      ],
+      [
+       "× 2 compras por mês",
+       "16 compras ao longo da obra"
+      ],
+      [
+       "× R$ 600 por compra",
+       "R$ 9.600 em vendas numa única obra"
+      ],
+      [
+       "× 30% de margem",
+       "R$ 2.880 de lucro com um só cliente"
+      ],
+      [
+       "Ele indica 1 colega",
+       "A conta dobra, sem gastar com anúncio"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "PERDER UM CLIENTE",
+      "NÃO É PERDER",
+      "UMA VENDA."
+     ],
+     "sub": "É perder a obra inteira. Quer fazer essa conta com a gente? **Diagnóstico gratuito no link da bio.**",
+     "sub_top": 930
+    }
+   ],
+   "legenda": "Quanto vale um cliente de obra para a sua loja?\n\nUm exemplo:\nUma obra dura 8 meses\n× 2 compras por mês = 16 compras\n× R$ 600 por compra = R$ 9.600 em vendas\n× 30% de margem = R$ 2.880 de lucro com um só cliente\nE se ele indicar um colega, a conta dobra.\n\nPerder um cliente de obra não é perder uma venda. É perder a obra inteira.\n\nOs números são de exemplo. Faça a conta com os da sua loja e conta aqui: quanto vale o seu cliente de obra?\n\nQuer fazer essa conta com a gente? Diagnóstico gratuito pelo link da bio.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #ClienteDeObra #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-10-28-15h-orcamento-whatsapp",
+   "modelo": "carrossel",
+   "data": "2026-10-28T15:00:00",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "MANDE PARA SUA EQUIPE",
+     "titulo": [
+      "ORÇAMENTO",
+      "PELO WHATSAPP",
+      "EM 5 PASSOS"
+     ],
+     "sub": "O cliente pede preço em três lojas pelo celular. **Fecha com quem atende melhor**, não só com o mais barato.",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "DO PEDIDO AO FECHAMENTO",
+     "itens": [
+      [
+       "Responda em até 30 minutos",
+       "Nem que seja: recebi, já estou separando"
+      ],
+      [
+       "Pergunte sobre a obra",
+       "Metragem, etapa e prazo antes de mandar preço"
+      ],
+      [
+       "Mande tudo em uma mensagem",
+       "Item, quantidade, valor total e prazo de entrega"
+      ],
+      [
+       "Dê validade ao orçamento",
+       "Preço válido até sexta ajuda o cliente a decidir"
+      ],
+      [
+       "Volte no dia seguinte",
+       "Ficou alguma dúvida? Posso separar para o senhor?"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "SALVOU?",
+      "MANDE PARA QUEM",
+      "ATENDE O WHATSAPP."
+     ],
+     "sub": "No WhatsApp, **velocidade e clareza** vendem tanto quanto preço.",
+     "sub_top": 930
+    }
+   ],
+   "legenda": "Orçamento pelo WhatsApp em 5 passos: salve e mande para quem atende o celular da loja.\n\n1. Responda em até 30 minutos\n2. Pergunte sobre a obra antes de mandar preço\n3. Mande tudo em uma mensagem: item, quantidade, total e prazo\n4. Dê validade ao orçamento\n5. Volte no dia seguinte\n\nNo WhatsApp, velocidade e clareza vendem tanto quanto preço.\n\nNa sua loja, quanto tempo o cliente espera a resposta? Conta aqui nos comentários.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #VendasPeloWhatsApp #GestaoDeLojas #VarejoMatcon #MinasGerais #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-10-29-15h-de-loja-em-loja",
+   "modelo": "carrossel",
+   "data": "2026-10-29T15:00:00",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "DE LOJA EM LOJA",
+     "titulo": [
+      "3 COISAS QUE EU",
+      "VEJO EM QUASE",
+      "TODA LOJA"
+     ],
+     "sub": "Trabalho dentro das lojas, do balcão ao depósito. **Estes três sinais aparecem quase sempre.**",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "O QUE SE REPETE",
+     "itens": [
+      [
+       "O caderno do balcão",
+       "Falta, encomenda e recado anotados onde só uma pessoa entende"
+      ],
+      [
+       "O dono como gargalo",
+       "A equipe para e espera a decisão chegar"
+      ],
+      [
+       "Depósito sem endereço",
+       "O produto existe, mas ninguém acha na hora da venda"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "E NA SUA LOJA,",
+      "QUAL DOS TRÊS",
+      "APARECE?"
+     ],
+     "sub": "Responda nos comentários. **Sâny Oliveira**, fundador da FORTÍS SOLUÇÕES MATCON.",
+     "sub_top": 930
+    }
+   ],
+   "legenda": "De loja em loja: 3 coisas que eu vejo em quase toda loja de material de construção.\n\n1. O caderno do balcão: falta, encomenda e recado anotados onde só uma pessoa entende.\n2. O dono como gargalo: a equipe para e espera a decisão chegar.\n3. Depósito sem endereço: o produto existe, mas ninguém acha na hora da venda.\n\nNenhum dos três é falta de esforço. É falta de processo.\n\nE na sua loja, qual dos três aparece? Responda aqui nos comentários.\n\nSâny Oliveira\nFundador · FORTÍS SOLUÇÕES MATCON\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #DeLojaEmLoja #GestaoDeLojas #VarejoMatcon #MinasGerais #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-10-30-15h-cobranca-atraso",
+   "modelo": "carrossel",
+   "data": "2026-10-30T15:00:00",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "MANDE PARA SUA EQUIPE",
+     "titulo": [
+      "COMO COBRAR",
+      "O CLIENTE",
+      "EM ATRASO"
+     ],
+     "sub": "Sem constranger e **sem perder o cliente** que ainda tem obra pela frente.",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "ROTEIRO DE COBRANÇA",
+     "itens": [
+      [
+       "Lembre antes do vencimento",
+       "Uma mensagem dois dias antes evita metade dos atrasos"
+      ],
+      [
+       "Venceu? Contato no dia seguinte",
+       "Tom de lembrete, não de cobrança"
+      ],
+      [
+       "Ofereça um caminho",
+       "Pix, data nova ou parcela: o cliente escolhe"
+      ],
+      [
+       "Registre o combinado",
+       "Data, valor e quem falou, por escrito"
+      ],
+      [
+       "Nova compra só com acerto",
+       "Regra clara para todos, sem exceção de balcão"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "SALVOU?",
+      "MANDE PARA QUEM",
+      "CUIDA DO CREDIÁRIO."
+     ],
+     "sub": "Cobrar com processo **preserva o caixa e o cliente**.",
+     "sub_top": 930
+    }
+   ],
+   "legenda": "Como cobrar o cliente em atraso sem perder o cliente: salve e mande para quem cuida do crediário.\n\n1. Lembre dois dias antes do vencimento\n2. Venceu? Contato no dia seguinte, em tom de lembrete\n3. Ofereça um caminho: Pix, data nova ou parcela\n4. Registre o combinado por escrito\n5. Nova compra só com acerto, regra igual para todos\n\nCobrar com processo preserva o caixa e o cliente.\n\nNa sua loja, quem cobra o cliente em atraso? Conta aqui nos comentários.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #Inadimplencia #GestaoDeLojas #VarejoMatcon #MinasGerais #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-10-31-15h-dono-para-dono",
+   "modelo": "mensagem",
+   "data": "2026-10-31T15:00:00",
+   "kicker": "DE DONO PARA DONO",
+   "titulo": [
+    "QUAL DECISÃO",
+    "MAIS MUDOU A SUA",
+    "LOJA EM 2026?"
+   ],
+   "sub": "Contratar, cortar, organizar, investir. Conta nos comentários: **a sua resposta pode ajudar outro lojista**.",
+   "sub_top": 880,
+   "legenda": "Pergunta de dono para dono.\n\nQual decisão mais mudou a sua loja em 2026?\n\nPode ser uma contratação, um corte, uma mudança no estoque, um sistema novo, ou parar de fazer alguma coisa.\n\nConta aqui nos comentários. A sua resposta pode ajudar outro lojista que está passando pelo mesmo.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #DonoDeLoja #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-01-15h-virada-do-mes",
+   "modelo": "carrossel",
+   "data": "2026-11-01T15:00:00",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "PLANEJE O MÊS",
+     "titulo": [
+      "NOVEMBRO",
+      "COMEÇA",
+      "AMANHÃ"
+     ],
+     "sub": "Cinco passos para a loja **não entrar no mês no improviso**.",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "ANTES DE SEGUNDA ABRIR",
+     "itens": [
+      [
+       "Feche os números de outubro",
+       "Quanto vendeu, quanto lucrou, onde perdeu"
+      ],
+      [
+       "Defina a meta de novembro",
+       "Da loja e de cada vendedor, por dia"
+      ],
+      [
+       "Olhe o calendário do mês",
+       "Feriados, Black Friday e obras que correm antes do fim do ano"
+      ],
+      [
+       "Prepare o estoque",
+       "Itens que vão girar mais em novembro e dezembro"
+      ],
+      [
+       "Reúna a equipe na segunda",
+       "15 minutos: meta, prioridades e o que muda"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "SALVOU?",
+      "MANDE PARA",
+      "SEU GERENTE."
+     ],
+     "sub": "Mês planejado no domingo é **segunda-feira sem susto**.",
+     "sub_top": 930
+    }
+   ],
+   "legenda": "Novembro começa amanhã. Cinco passos para a loja não entrar no mês no improviso:\n\n1. Feche os números de outubro\n2. Defina a meta de novembro, da loja e de cada vendedor\n3. Olhe o calendário: feriados, Black Friday e obras de fim de ano\n4. Prepare o estoque para novembro e dezembro\n5. Reúna a equipe na segunda por 15 minutos\n\nMês planejado no domingo é segunda-feira sem susto.\n\nSalve e mande para o seu gerente.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #PlanejamentoComercial #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+  }
+ ],
+ "stories": [
+  {
+   "arquivo": "2026-10-27-story-06h",
+   "data": "2026-10-27T06:00:00",
+   "kicker": "BOM DIA, LOJISTA",
+   "titulo": [
+    "QUEM ABRE A LOJA",
+    "DÁ O TOM DO DIA"
+   ],
+   "sub": "O primeiro cliente sente **o clima da equipe**.",
+   "frase": "Ótima terça."
+  },
+  {
+   "arquivo": "2026-10-28-story-06h",
+   "data": "2026-10-28T06:00:00",
+   "kicker": "BOM DIA, LOJISTA",
+   "titulo": [
+    "RESPONDA O WHATSAPP",
+    "ANTES DO CAFÉ"
+   ],
+   "sub": "O orçamento que chegou à noite **vira venda** se for respondido cedo.",
+   "frase": "Ótima quarta."
+  },
+  {
+   "arquivo": "2026-10-29-story-06h",
+   "data": "2026-10-29T06:00:00",
+   "kicker": "BOM DIA, LOJISTA",
+   "titulo": [
+    "CHAME O CLIENTE",
+    "PELO NOME"
+   ],
+   "sub": "Cliente reconhecido **se sente em casa** e volta.",
+   "frase": "Ótima quinta."
+  },
+  {
+   "arquivo": "2026-10-30-story-06h",
+   "data": "2026-10-30T06:00:00",
+   "kicker": "BOM DIA, LOJISTA",
+   "titulo": [
+    "RETA FINAL",
+    "DO MÊS"
+   ],
+   "sub": "Escolha **um produto de alto giro** e peça à equipe para oferecer em toda venda.",
+   "frase": "Ótima sexta."
+  },
+  {
+   "arquivo": "2026-10-31-story-06h",
+   "data": "2026-10-31T06:00:00",
+   "kicker": "BOM DIA, LOJISTA",
+   "titulo": [
+    "SÁBADO CHEIO,",
+    "EQUIPE NO POSTO"
+   ],
+   "sub": "Balcão, caixa e entrega: **cada um sabe o seu lugar** antes de abrir.",
+   "frase": "Ótimo sábado de vendas."
+  },
+  {
+   "arquivo": "2026-11-01-story-06h",
+   "data": "2026-11-01T06:00:00",
+   "kicker": "BOM DOMINGO",
+   "titulo": [
+    "NOVEMBRO",
+    "COMEÇOU"
+   ],
+   "sub": "Mês novo, página em branco. Descanse hoje e **planeje com calma**.",
+   "frase": "Bom domingo."
+  }
+ ]
+}
