@@ -22,10 +22,10 @@ OV = {
     'H': t1('DEVOLUÇÃO<br>SEM REGRA<br>É PREJUÍZO', 250, 96, 'metal'),
     'A': k('SOBROU DA OBRA') + t1('CAIXA ABERTA.<br>PEÇA RISCADA.', 290, 90, 'metal'),
     'B': k('ANTES DE ACEITAR') + t1('PRAZO<br>NOTA FISCAL<br>PRODUTO CONFERIDO', 290, 74, 'metal'),
-    'C': k('NO MESMO DIA') + t1('REGISTRE O MOTIVO<br>E VOLTE AO ESTOQUE', 290, 70, 'metal') + s('danificado vai para a <b>avaria</b>,<br>não para a prateleira', 520),
-    'R': t1('DEVOLUÇÃO COM REGRA', 270, 70) + t1('PROTEGE O CAIXA<br>E MANTÉM O CLIENTE', 360, 84, 'metal'),
+    'C': k('NO MESMO DIA') + t1('REGISTRE O MOTIVO<br>E VOLTE AO ESTOQUE', 290, 70, 'metal') + s('danificado vai para a <b>avaria</b>', 520),
+    'R': t1('DEVOLUÇÃO COM REGRA', 270, 70) + t1('PROTEGE<br>O CAIXA', 360, 110, 'metal'),
 }
-IMGS = ['r13A', 'r20A', 'r13B', 'r18C', 'r13H']
+IMGS = ['r23H', 'r23A', 'r23B', 'r23C', 'r23R']
 
 R = os.path.join(AQUI, 'reel23')
 ks = ['H', 'A', 'B', 'C', 'R', 'cta']
