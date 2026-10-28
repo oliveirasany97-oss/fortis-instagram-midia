@@ -34,10 +34,10 @@ REELS = {
  }, ['r17H', 'r17A', 'r17B', 'r17C', 'r17H']),
  18: ('inventario-rotativo', {
    'H': t1('VOCÊ FECHA A LOJA<br>PARA CONTAR<br>O ESTOQUE?', 250, 88, 'metal'),
-   'A': k('FAÇA O ROTATIVO') + t1('20 ITENS<br>POR SEMANA', 290, 110, 'metal') + s('começando pelos de <b>maior giro e valor</b>', 560),
-   'B': k('ACHOU DIFERENÇA? INVESTIGUE NA HORA') + t1('ENTRADA SEM NOTA<br>VENDA SEM BAIXA<br>AVARIA SEM REGISTRO', 290, 66, 'metal'),
-   'C': k('O RESULTADO') + t1('ESTOQUE EM QUE<br>VOCÊ PODE CONFIAR', 290, 84, 'metal'),
-   'R': t1('INVENTÁRIO UMA VEZ', 270, 74) + t1('POR ANO<br>CHEGA TARDE', 360, 100, 'metal'),
+   'A': k('INVENTÁRIO UMA VEZ POR ANO') + t1('CHEGA<br>TARDE', 290, 110, 'metal') + s('a diferença <b>já virou prejuízo</b>', 560),
+   'B': k('FAÇA O ROTATIVO') + t1('20 ITENS<br>POR SEMANA', 290, 110, 'metal') + s('começando pelos de <b>maior giro e valor</b>', 560),
+   'C': k('ACHOU DIFERENÇA? INVESTIGUE NA HORA') + t1('ENTRADA SEM NOTA<br>VENDA SEM BAIXA<br>AVARIA SEM REGISTRO', 290, 66, 'metal'),
+   'R': t1('ESTOQUE CONFERIDO', 270, 74) + t1('É ESTOQUE<br>CONFIÁVEL', 360, 104, 'metal'),
  }, ['r18H', 'r18A', 'r18B', 'r18C', 'r18H']),
  19: ('comissao-que-premia-margem', {
    'H': t1('SEU VENDEDOR<br>GANHA MAIS QUANDO<br>DÁ DESCONTO?', 250, 84, 'metal'),
