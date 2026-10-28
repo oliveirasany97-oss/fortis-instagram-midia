@@ -1,12 +1,12 @@
 """Reel 23 com movimento real: clipes de imagem-para-vídeo (ElevenLabs/Kling) no lugar do zoom nas fotos.
-Uso: python3 montar_reel23_mov.py voz.mp3 cortes   (clipes em reel23/clipes/v23H.mp4 ... v23R.mp4)"""
+Uso: python3 montar_reel23_mov.py voz.mp3 cortes   (clipes em personagem/clipes/v23H.mp4 ... v23R.mp4)"""
 import os, sys
 from kitpers import ReelP, duracoes, AQUI, sh, dur, W, H
 import montar_reel23 as base23
 
 OV, cta_bio = base23.OV, base23.cta_bio
 R = os.path.join(AQUI, 'reel23')
-CLIPES = os.path.join(R, 'clipes')
+CLIPES = os.path.join(AQUI, 'clipes')
 ks = ['H', 'A', 'B', 'C', 'R', 'cta']
 voz, DUR = duracoes(ks, None, sys.argv)
 
