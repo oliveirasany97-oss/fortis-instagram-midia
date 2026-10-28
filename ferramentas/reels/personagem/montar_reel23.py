@@ -27,12 +27,13 @@ OV = {
 }
 IMGS = ['r23H', 'r23A', 'r23B', 'r23C', 'r23R']
 
-R = os.path.join(AQUI, 'reel23')
-ks = ['H', 'A', 'B', 'C', 'R', 'cta']
-voz, DUR = duracoes(ks, {'H': 3.6, 'A': 5.0, 'B': 5.4, 'C': 6.6, 'R': 4.4, 'cta': 4.6}, sys.argv)
-r = ReelP(R, OV, {'cta': cta_bio('Gestão · vendas · equipe<br>compras · FORTÍS FLOW')})
-for i, kk in enumerate(['H', 'A', 'B', 'C', 'R']):
-    r.foto(kk, IMGS[i] + '.png', DUR[kk], zoom_in=(i % 2 == 0), pan=(1 if i == 1 else 0))
-r.card('cta', DUR['cta'])
-saida = os.path.join(R, 'reel23-troca-e-devolucao' + ('-narrado' if voz else '') + '.mp4')
-print(DUR, r.final(ks, saida, voz))
+if __name__ == '__main__':
+    R = os.path.join(AQUI, 'reel23')
+    ks = ['H', 'A', 'B', 'C', 'R', 'cta']
+    voz, DUR = duracoes(ks, {'H': 3.6, 'A': 5.0, 'B': 5.4, 'C': 6.6, 'R': 4.4, 'cta': 4.6}, sys.argv)
+    r = ReelP(R, OV, {'cta': cta_bio('Gestão · vendas · equipe<br>compras · FORTÍS FLOW')})
+    for i, kk in enumerate(['H', 'A', 'B', 'C', 'R']):
+        r.foto(kk, IMGS[i] + '.png', DUR[kk], zoom_in=(i % 2 == 0), pan=(1 if i == 1 else 0))
+    r.card('cta', DUR['cta'])
+    saida = os.path.join(R, 'reel23-troca-e-devolucao' + ('-narrado' if voz else '') + '.mp4')
+    print(DUR, r.final(ks, saida, voz))
