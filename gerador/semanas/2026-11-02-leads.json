@@ -1,0 +1,32 @@
+{
+  "pasta": "posts/2026-11/leads-02-07",
+  "feed": [
+    {
+      "arquivo": "2026-11-04-1240-toda-loja-precisa",
+      "modelo": "carrossel",
+      "data": "2026-11-04T12:40:00",
+      "slides": [
+        {"tipo": "capa", "kicker": "SALVE E CONFIRA NA SUA LOJA", "titulo": ["TODA LOJA DE", "MATERIAL DE", "CONSTRUÇÃO PRECISA TER"], "sub": "Cinco coisas que separam a loja que **depende do dono** da loja que **funciona sozinha**.", "sub_top": 880},
+        {"tipo": "lista", "titulo": "5 ITENS ESSENCIAIS", "itens": [
+          ["Registro único de faltas", "Acabou no balcão, o comprador sabe no mesmo dia"],
+          ["Estoque mínimo dos 20 itens de maior giro", "Bateu no mínimo, vira pedido sem depender de memória"],
+          ["Cotação registrada", "Quem venceu, por quanto e com qual prazo"],
+          ["Meta visível para cada vendedor", "No meio do mês, ele sabe quanto falta"],
+          ["Retorno de orçamento em até 24 horas", "Quem responde primeiro vende"]
+        ]},
+        {"tipo": "final", "titulo": ["QUANTOS", "A SUA LOJA TEM?"], "sub": "Faça o **teste de maturidade da loja**: 12 perguntas, nota de 0 a 100 e por onde começar. **Link na bio.**", "sub_top": 820}
+      ],
+      "texto": "Toda loja de material de construção precisa ter estes 5 itens. Quantos a sua tem hoje?\n\n1. Registro único de faltas\n2. Estoque mínimo dos 20 itens de maior giro\n3. Cotação registrada\n4. Meta visível para cada vendedor\n5. Retorno de orçamento em até 24 horas\n\nQuer saber a nota da sua loja? Faça o teste de maturidade gratuito: 12 perguntas, nota de 0 a 100 e a área por onde começar. O link está na bio.\n\nSalve e mande para o seu gerente.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#LojaDeMaterialDeConstrucao #MaterialDeConstrucao #VarejoDaConstrucao #MaterialDeConstrucaoMG #GestaoDeLojas #PonteNova #FortisSolucoesMatcon"
+    }
+  ],
+  "stories": [
+    {"arquivo": "2026-11-02-story-0740", "data": "2026-11-02T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["REGISTRO ÚNICO", "DE FALTAS"], "sub": "Acabou no balcão: **o comprador fica sabendo no mesmo dia** ou só quando o cliente reclama?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-03-story-0740", "data": "2026-11-03T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["ESTOQUE MÍNIMO", "DOS 20 ITENS"], "sub": "Os itens que mais vendem **viram pedido sozinhos** quando chegam no mínimo?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-04-story-0740", "data": "2026-11-04T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["COTAÇÃO", "REGISTRADA"], "sub": "Você sabe **quem venceu a última cotação** e por quanto?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-05-story-0740", "data": "2026-11-05T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["META VISÍVEL", "PARA O VENDEDOR"], "sub": "No meio do mês, **cada vendedor sabe quanto falta**?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-06-story-0740", "data": "2026-11-06T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["ORÇAMENTO", "RESPONDIDO EM 24H"], "sub": "Todo orçamento **recebe retorno no dia seguinte**?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-07-story-0740", "data": "2026-11-07T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["AVARIA COM", "RESPONSÁVEL"], "sub": "Produto quebrado é **registrado com valor e responsável**?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-03-story-1240", "data": "2026-11-03T12:40:00", "kicker": "A CONTA DA LOJA · EXEMPLO", "titulo": ["5 VENDAS PERDIDAS", "= R$ 4 MIL/MÊS"], "sub": "Exemplo: 5 clientes por semana sem o produto, ticket de R$ 200. **Quanto isso dá na sua loja?**", "frase": "Faça a conta no link da bio."},
+    {"arquivo": "2026-11-05-story-1240", "data": "2026-11-05T12:40:00", "kicker": "A CONTA DA LOJA · EXEMPLO", "titulo": ["PREÇO DE R$ 150", "MARGEM DE 2%"], "sub": "Exemplo: custo de R$ 108, com impostos, comissão e despesas. **O seu preço está dando lucro?**", "frase": "Simule o seu preço no link da bio."}
+  ]
+}
