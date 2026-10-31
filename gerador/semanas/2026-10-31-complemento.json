@@ -1,0 +1,51 @@
+{
+ "pasta": "posts/2026-10/semana-26-01",
+ "feed": [
+  {
+   "arquivo": "2026-10-31-dica-agradeca-equipe",
+   "modelo": "dica",
+   "data": "2026-10-31T21:30:00",
+   "kicker": "DICA RÁPIDA",
+   "icone": "equipe",
+   "titulo": ["FECHOU O MÊS?", "AGRADEÇA A EQUIPE"],
+   "sub": "Antes de cobrar a meta de novembro, **reconheça quem fez outubro** acontecer.",
+   "frase": "Salve para o próximo fechamento.",
+   "legenda": "Dica rápida para o fechamento do mês: agradeça a equipe antes de falar da próxima meta.\n\nCinco minutos na segunda-feira, com todo mundo junto:\n\n• O que deu certo em outubro\n• Quem fez a diferença, pelo nome\n• O que vamos repetir em novembro\n\nEquipe que se sente vista trabalha com mais vontade. Isso também é gestão.\n\nSalve para o próximo fechamento.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #GestaoDeEquipe #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-01-feed-conversao-orcamento",
+   "data": "2026-11-01T10:00:00",
+   "kicker": "NÚMERO QUE POUCOS OLHAM",
+   "titulo": ["DE 10 ORÇAMENTOS,", "QUANTOS VIRAM VENDA?"],
+   "sub": "Quem não mede a **conversão de orçamento** não sabe onde está perdendo dinheiro.",
+   "cards": [
+    {"icone": "documento", "titulo": "Conte tudo", "texto": "Todo orçamento feito, com data e vendedor"},
+    {"icone": "grafico", "titulo": "Compare", "texto": "Quantos fecharam no fim do mês"},
+    {"icone": "seta_acao", "titulo": "Aja", "texto": "Descubra por que o resto não fechou"}
+   ],
+   "frase": "Abaixo de **3 em cada 10**, o problema não é o preço.",
+   "legenda": "De cada 10 orçamentos que a sua loja faz, quantos viram venda?\n\nA maioria dos donos não sabe responder. E esse número diz muito sobre a loja.\n\n1. Conte todo orçamento feito, com data e vendedor\n2. No fim do mês, veja quantos fecharam\n3. Para os que não fecharam, descubra o motivo: preço, prazo, falta de produto ou falta de retorno\n\nQuando a conversão é baixa, quase sempre o problema está no atendimento e no retorno, não no preço.\n\nNa sua loja, esse número é medido? Conta aqui nos comentários.\n\nDiagnóstico sem custo: link na bio.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #GestaoDeLojas #VendasNoVarejo #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-01-dica-maior-problema",
+   "modelo": "dica",
+   "data": "2026-11-01T21:30:00",
+   "kicker": "DICA RÁPIDA",
+   "icone": "alvo",
+   "titulo": ["COMECE A SEMANA PELO", "MAIOR PROBLEMA"],
+   "sub": "Escolha **um só problema** da loja e resolva até sexta. O resto espera.",
+   "frase": "Salve este post para usar depois.",
+   "legenda": "Dica rápida para domingo à noite: escolha o maior problema da loja e resolva só ele nesta semana.\n\nDono que tenta arrumar tudo ao mesmo tempo termina a semana sem fechar nada.\n\nUm problema, um responsável, um prazo: sexta-feira.\n\nQual vai ser o seu desta semana?\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #DonoDeLoja #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+  }
+ ],
+ "stories": [
+  {
+   "arquivo": "2026-11-01-story-1930",
+   "data": "2026-11-01T19:30:00",
+   "kicker": "DIAGNÓSTICO SEM CUSTO",
+   "titulo": ["15 MINUTOS PARA", "VER SUA LOJA DE FORA"],
+   "sub": "Por vídeo ou na sua loja. Você sai com **o primeiro ponto a corrigir**.",
+   "frase": "Responda este story ou chame no direct."
+  }
+ ]
+}
