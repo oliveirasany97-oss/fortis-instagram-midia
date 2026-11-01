@@ -23,6 +23,7 @@ A partir do reel 7: `rec.py` (classe `Rec`) concentra a gravação (toques, digi
 Avarias e filas de compra mais cheias (marcas D e E).
 
 ## Narração (regras fixas, aprovadas pelo Sâny em 28/10/2026)
-- ElevenLabs, voz **Roger (premade, CwhRBWXzGAHq8TQ4Fs17)**, modelo **eleven_v4** (o Multilingual v2 deixa a voz lenta e tremida).
+- ElevenLabs, voz **Sâny Oliveira (clone, VatPA8ET745sExPgXNuU)**, aprovada pelo Sâny em 31/10/2026 no lugar do Roger, modelo **eleven_v4** (o Multilingual v2 deixa a voz lenta e tremida). Roger (CwhRBWXzGAHq8TQ4Fs17) fica só como reserva.
+- Com a voz dele, o reel fica ~35% mais longo que com o Roger: refazer os cortes com silencedetect a cada narração.
 - O nome da empresa é oxítono: **for-TÍS**. No texto da narração, escrever **"Fortíss"** (grafia aprovada pelo ouvido do Sâny; "Fortís" sai FÓR-tis).
 - Reels com movimento real: cenas do personagem animadas no ElevenLabs (Kling 2.6 Pro, 9:16, 5 s, sem áudio) e montadas com `personagem/montar_reel23_mov.py` como modelo.
