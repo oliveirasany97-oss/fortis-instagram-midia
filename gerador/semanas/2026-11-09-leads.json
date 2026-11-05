@@ -1,0 +1,32 @@
+{
+  "pasta": "posts/2026-11/leads-09-14",
+  "feed": [
+    {
+      "arquivo": "2026-11-11-1240-rotinas-da-semana",
+      "modelo": "carrossel",
+      "data": "2026-11-11T12:40:00",
+      "slides": [
+        {"tipo": "capa", "kicker": "SALVE E CONFIRA NA SUA LOJA", "titulo": ["TODA SEMANA,", "A LOJA DE MATERIAL", "PRECISA FAZER"], "sub": "Cinco rotinas simples que tiram a loja **do improviso** e colocam **no controle**.", "sub_top": 880},
+        {"tipo": "lista", "titulo": "5 ROTINAS DA SEMANA", "itens": [
+          ["Contar uma parte do estoque", "Inventário rotativo: um corredor por semana, sem fechar a loja"],
+          ["Revisar a lista de faltas", "O que faltou no balcão vira pedido ou decisão"],
+          ["Ligar para os orçamentos em aberto", "Orçamento parado é venda esperando retorno"],
+          ["Conferir preço da gôndola com o sistema", "Etiqueta e sistema falando o mesmo valor"],
+          ["Reunião de 15 minutos com a equipe", "Meta, faltas e prioridades da semana"]
+        ]},
+        {"tipo": "final", "titulo": ["QUANTAS", "A SUA LOJA FAZ?"], "sub": "Faça o **teste de maturidade da loja**: 12 perguntas, nota de 0 a 100 e por onde começar. **Link na bio.**", "sub_top": 820}
+      ],
+      "texto": "Toda loja de material de construção precisa fazer estas 5 rotinas toda semana. Quantas a sua já faz?\n\n1. Contar uma parte do estoque (inventário rotativo, sem fechar a loja)\n2. Revisar a lista de faltas\n3. Ligar para os orçamentos em aberto\n4. Conferir o preço da gôndola com o sistema\n5. Reunião de 15 minutos com a equipe\n\nQuer saber a nota da sua loja? Faça o teste de maturidade: 12 perguntas, nota de 0 a 100 e a área por onde começar. O link está na bio.\n\nSalve e mande para o seu gerente.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#LojaDeMaterialDeConstrucao #MaterialDeConstrucao #VarejoDaConstrucao #MaterialDeConstrucaoSP #GestaoDeLojas #BeloHorizonte #FortisSolucoesMatcon"
+    }
+  ],
+  "stories": [
+    {"arquivo": "2026-11-09-story-0740", "data": "2026-11-09T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["INVENTÁRIO", "ROTATIVO"], "sub": "Você conta **uma parte do estoque toda semana** ou só no balanço do fim do ano?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-10-story-0740", "data": "2026-11-10T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["CURVA ABC", "DO ESTOQUE"], "sub": "Você sabe **quais itens fazem a maior parte do faturamento** e nunca podem faltar?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-11-story-0740", "data": "2026-11-11T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["CONFERÊNCIA NO", "RECEBIMENTO"], "sub": "A mercadoria é **conferida contra a nota** antes do caminhão ir embora?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-12-story-0740", "data": "2026-11-12T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["CHECKLIST", "DE ABERTURA"], "sub": "Antes de abrir a porta, **alguém confere caixa, preço e balcão**?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-13-story-0740", "data": "2026-11-13T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["COMISSÃO", "CLARA"], "sub": "Cada vendedor **sabe calcular a própria comissão** sem perguntar ao dono?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-14-story-0740", "data": "2026-11-14T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["PÓS-VENDA", "ORGANIZADO"], "sub": "O cliente da obra **recebe um contato depois da entrega** ou só volta se precisar?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-10-story-1240", "data": "2026-11-10T12:40:00", "kicker": "A CONTA DA LOJA · EXEMPLO", "titulo": ["R$ 30 MIL PARADOS", "= R$ 3.600/ANO"], "sub": "Exemplo: R$ 30 mil em itens sem giro, a 1% ao mês de custo do dinheiro. **Quanto está parado na sua loja?**", "frase": "Faça a conta no link da bio."},
+    {"arquivo": "2026-11-12-story-1240", "data": "2026-11-12T12:40:00", "kicker": "A CONTA DA LOJA · EXEMPLO", "titulo": ["SEM COTAÇÃO", "= R$ 7.200/ANO"], "sub": "Exemplo: R$ 20 mil por mês comprados 3% mais caro por falta de cotação. **Quanto você paga a mais?**", "frase": "Faça a conta no link da bio."}
+  ]
+}
