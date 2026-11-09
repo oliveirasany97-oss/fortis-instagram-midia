@@ -1,0 +1,644 @@
+{
+ "pasta": "posts/2026-11/semana-09-15",
+ "feed": [
+  {
+   "arquivo": "2026-11-10-feed-margem-x-markup",
+   "data": "2026-11-10T10:00:00",
+   "kicker": "PREÇO CERTO",
+   "titulo": [
+    "MARKUP NÃO É",
+    "MARGEM"
+   ],
+   "sub": "Colocar 30% em cima do custo **não dá 30% de margem**. Dá 23%.",
+   "cards": [
+    {
+     "icone": "documento",
+     "titulo": "Markup",
+     "texto": "Quanto você soma em cima do custo"
+    },
+    {
+     "icone": "grafico",
+     "titulo": "Margem",
+     "texto": "Quanto sobra do preço de venda"
+    },
+    {
+     "icone": "alvo",
+     "titulo": "A conta",
+     "texto": "Custo R$ 100 + 30% = R$ 130. Margem: 23%"
+    }
+   ],
+   "frase": "Defina a **margem que você quer** e calcule o preço a partir dela.",
+   "legenda": "Markup não é margem. E essa confusão tira dinheiro de muita loja.\n\nMarkup é quanto você soma em cima do custo.\nMargem é quanto sobra do preço de venda.\n\nExemplo: custo de R$ 100 com markup de 30% dá preço de R$ 130. A margem é de R$ 30 sobre R$ 130, ou seja, 23%, e não 30%.\n\nQuem acha que trabalha com 30% de margem e na verdade tem 23% fecha o mês sem entender para onde foi o lucro.\n\nNa sua loja, o preço é calculado pelo markup ou pela margem? Conta aqui nos comentários.\n\nDiagnóstico sem custo: link na bio.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #Precificacao #MargemDeLucro #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-10-15h-ticket-medio",
+   "modelo": "carrossel",
+   "data": "2026-11-10T15:00:00",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "A CONTA DA LOJA",
+     "titulo": [
+      "R$ 20 A MAIS",
+      "POR VENDA",
+      "MUDAM O MÊS"
+     ],
+     "sub": "Pequeno no balcão, **grande no fim do mês**.",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "FAÇA A CONTA ASSIM",
+     "itens": [
+      [
+       "40 vendas por dia",
+       "Uma loja de porte médio no balcão"
+      ],
+      [
+       "R$ 20 a mais em cada uma",
+       "Uma broxa, uma fita, um rolo de veda-rosca"
+      ],
+      [
+       "R$ 800 por dia",
+       "Sem nenhum cliente novo"
+      ],
+      [
+       "26 dias abertos no mês",
+       "Segunda a sábado"
+      ],
+      [
+       "R$ 20.800 a mais por mês",
+       "Só com o complemento certo"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "TODA VENDA",
+      "TEM UM COMPLEMENTO"
+     ],
+     "sub": "Treine a equipe para **lembrar o cliente** do que a obra vai precisar."
+    }
+   ],
+   "legenda": "A conta da loja: o que R$ 20 a mais por venda fazem no seu mês.\n\n40 vendas por dia, R$ 20 a mais em cada uma: R$ 800 por dia.\nEm 26 dias abertos, são R$ 20.800 a mais no mês, sem nenhum cliente novo.\n\nO complemento certo é aquele que o cliente vai precisar de qualquer jeito: a broxa da tinta, a fita do drywall, o veda-rosca do cano. Se ele não leva da sua loja, leva de outra.\n\nSalve e mande para a sua equipe.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #TicketMedio #Vendas #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-10-dica-prazo-por-escrito",
+   "modelo": "dica",
+   "data": "2026-11-10T21:30:00",
+   "kicker": "DICA RÁPIDA",
+   "icone": "documento",
+   "titulo": [
+    "PRAZO DE ENTREGA",
+    "SEMPRE POR ESCRITO"
+   ],
+   "sub": "Prazo combinado só de boca **vira reclamação** quando atrasa um dia.",
+   "legenda": "Dica rápida: combine o prazo de entrega sempre por escrito.\n\nNo pedido, na nota ou na mensagem do WhatsApp: dia e período da entrega.\n\nPrazo combinado só de boca vira discussão quando atrasa um dia. Prazo escrito protege o cliente e protege a loja.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #Entregas #Atendimento #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-11-feed-avalie-fornecedor",
+   "data": "2026-11-11T10:00:00",
+   "kicker": "COMPRAS COM CRITÉRIO",
+   "titulo": [
+    "FORNECEDOR TAMBÉM",
+    "SE AVALIA"
+   ],
+   "sub": "Preço baixo não adianta se a mercadoria **chega atrasada ou incompleta**.",
+   "cards": [
+    {
+     "icone": "relogio",
+     "titulo": "Prazo",
+     "texto": "Entregou no dia combinado?"
+    },
+    {
+     "icone": "lista",
+     "titulo": "Pedido completo",
+     "texto": "Veio tudo o que foi pedido?"
+    },
+    {
+     "icone": "ruptura",
+     "titulo": "Avaria",
+     "texto": "Quanto chegou quebrado ou errado?"
+    }
+   ],
+   "frase": "Dê uma nota por mês e **use na próxima negociação**.",
+   "legenda": "Fornecedor também se avalia.\n\nTrês perguntas a cada entrega:\n\n1. Chegou no prazo combinado?\n2. Veio o pedido completo?\n3. Quanto chegou quebrado ou errado?\n\nNo fim do mês, cada fornecedor tem uma nota. E a nota vai para a mesa na próxima negociação: quem atrasa e entrega incompleto precisa de preço melhor para continuar vendendo para você.\n\nSua loja avalia os fornecedores? Conta aqui nos comentários.\n\nDiagnóstico sem custo: link na bio.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #GestaoDeCompras #Fornecedores #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-11-15h-cliente-com-pressa",
+   "modelo": "carrossel",
+   "data": "2026-11-11T15:00:00",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "MANDE PARA SUA EQUIPE",
+     "titulo": [
+      "COMO ATENDER",
+      "O CLIENTE",
+      "COM PRESSA"
+     ],
+     "sub": "O pedreiro parou a obra para vir à loja. **Cada minuto conta.**",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "5 PASSOS NO BALCÃO",
+     "itens": [
+      [
+       "Cumprimente na hora",
+       "Mesmo ocupado: \"Já te atendo\""
+      ],
+      [
+       "Pergunte a lista inteira",
+       "Antes de começar a separar"
+      ],
+      [
+       "Separe tudo de uma vez",
+       "Nada de ir e voltar ao depósito"
+      ],
+      [
+       "Confira na frente dele",
+       "Item por item, antes de fechar"
+      ],
+      [
+       "Pagamento rápido",
+       "Maquininha e Pix prontos no balcão"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "ATENDIMENTO RÁPIDO",
+      "TRAZ O CLIENTE DE VOLTA"
+     ],
+     "sub": "Quem perde tempo na sua loja **compra no vizinho** da próxima vez."
+    }
+   ],
+   "legenda": "Mande para a sua equipe: como atender o cliente que tem pressa.\n\nO pedreiro parou a obra para vir até a loja. Cada minuto dele conta.\n\n1. Cumprimente na hora, mesmo ocupado: \"Já te atendo\"\n2. Pergunte a lista inteira antes de começar\n3. Separe tudo de uma vez, sem ir e voltar ao depósito\n4. Confira item por item na frente dele\n5. Maquininha e Pix prontos no balcão\n\nQuem perde tempo na sua loja compra no vizinho da próxima vez.\n\nSalve e mande para o seu balcão.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #Atendimento #TreinamentoDeEquipe #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-11-dica-confirme-pedido",
+   "modelo": "dica",
+   "data": "2026-11-11T21:30:00",
+   "kicker": "DICA RÁPIDA",
+   "icone": "telefone",
+   "titulo": [
+    "CONFIRME TODO PEDIDO",
+    "COM O FORNECEDOR"
+   ],
+   "sub": "Pedido feito por telefone **sem confirmação escrita** é pedido que chega errado.",
+   "legenda": "Dica rápida: confirme todo pedido de compra por escrito.\n\nFechou pelo telefone? Mande em seguida por WhatsApp ou e-mail: itens, quantidades, preço, prazo e condição de pagamento.\n\nQuando a mercadoria chegar, é esse papel que você confere. Sem ele, vale a palavra de um contra a do outro.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #GestaoDeCompras #Fornecedores #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-12-feed-loja-limpa",
+   "data": "2026-11-12T10:00:00",
+   "kicker": "PRIMEIRA IMPRESSÃO",
+   "titulo": [
+    "LOJA ORGANIZADA",
+    "VENDE MAIS"
+   ],
+   "sub": "O cliente decide se confia na loja **antes de falar com o vendedor**.",
+   "cards": [
+    {
+     "icone": "camera",
+     "titulo": "Fachada",
+     "texto": "Limpa, iluminada e com o que você vende"
+    },
+    {
+     "icone": "carrinho",
+     "titulo": "Corredores",
+     "texto": "Livres, sem caixa no caminho"
+    },
+    {
+     "icone": "lista",
+     "titulo": "Balcão",
+     "texto": "Só o que é do atendimento em cima dele"
+    }
+   ],
+   "frase": "Dez minutos de **arrumação na abertura** fazem diferença o dia inteiro.",
+   "legenda": "Loja organizada vende mais.\n\nO cliente decide se confia na sua loja antes mesmo de falar com o vendedor. Ele olha:\n\n1. A fachada: limpa, iluminada e mostrando o que você vende\n2. Os corredores: livres, sem caixa e palete no caminho\n3. O balcão: só o que é do atendimento em cima dele\n\nDez minutos de arrumação na abertura fazem diferença o dia inteiro.\n\nComo está a sua loja hoje? Conta aqui nos comentários.\n\nDiagnóstico sem custo: link na bio.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #VisualMerchandising #GestaoDeLojas #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-12-15h-primeira-visita",
+   "modelo": "carrossel",
+   "data": "2026-11-12T15:00:00",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "DE LOJA EM LOJA",
+     "titulo": [
+      "3 PERGUNTAS QUE",
+      "EU FAÇO AO DONO",
+      "NA PRIMEIRA VISITA"
+     ],
+     "sub": "As respostas mostram **onde a loja perde dinheiro**.",
+     "sub_top": 880
+    },
+    {
+     "tipo": "lista",
+     "titulo": "AS 3 PERGUNTAS",
+     "itens": [
+      [
+       "Quanto a loja lucrou no mês passado?",
+       "Lucro, não faturamento. Muitos donos não sabem"
+      ],
+      [
+       "O que acontece se você ficar 15 dias fora?",
+       "Mostra o quanto a loja depende do dono"
+      ],
+      [
+       "Quais são os 20 itens que mais vendem?",
+       "Mostra se a compra é feita com número ou no achismo"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "SE ALGUMA RESPOSTA",
+      "TRAVOU, COMECE POR ELA"
+     ],
+     "sub": "É por aí que o **diagnóstico** começa."
+    }
+   ],
+   "legenda": "De loja em loja: as 3 perguntas que eu faço ao dono na primeira visita.\n\n1. Quanto a loja lucrou no mês passado? Lucro, não faturamento.\n2. O que acontece se você ficar 15 dias fora?\n3. Quais são os 20 itens que mais vendem?\n\nSe alguma resposta travou, é por ela que vale começar.\n\nQuer responder essas perguntas com a gente? O diagnóstico é sem custo: link na bio.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #GestaoDeLojas #Consultoria #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-12-dica-fachada",
+   "modelo": "dica",
+   "data": "2026-11-12T21:30:00",
+   "kicker": "DICA RÁPIDA",
+   "icone": "camera",
+   "titulo": [
+    "A FACHADA PRECISA",
+    "DIZER O QUE VOCÊ VENDE"
+   ],
+   "sub": "Quem passa na rua decide em **três segundos** se entra.",
+   "legenda": "Dica rápida: a sua fachada diz o que a loja vende?\n\nQuem passa de carro decide em poucos segundos se entra. Nome da loja sozinho não basta.\n\nMostre as categorias principais: cimento, hidráulica, elétrica, tintas, pisos. E deixe a fachada iluminada à noite.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #VisualMerchandising #Marketing #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-13-feed-melhor-vendedor-saiu",
+   "data": "2026-11-13T10:00:00",
+   "kicker": "LOJA QUE NÃO PARA",
+   "titulo": [
+    "SEU MELHOR VENDEDOR",
+    "SAIU. E AGORA?"
+   ],
+   "sub": "Se os clientes iam embora com ele, **a carteira era dele, não da loja**.",
+   "cards": [
+    {
+     "icone": "documento",
+     "titulo": "Processo escrito",
+     "texto": "O jeito de vender fica na loja"
+    },
+    {
+     "icone": "telefone",
+     "titulo": "Clientes no sistema",
+     "texto": "Não só no celular do vendedor"
+    },
+    {
+     "icone": "equipe",
+     "titulo": "Equipe treinada",
+     "texto": "Mais de um sabe atender cada cliente"
+    }
+   ],
+   "frase": "Prepare a loja **antes** de alguém pedir as contas.",
+   "legenda": "Seu melhor vendedor saiu. E agora?\n\nSe os clientes foram embora junto com ele, a carteira era dele, não da loja.\n\nTrês proteções:\n\n1. Processo escrito: o jeito de vender fica na loja\n2. Clientes cadastrados no sistema, não só no celular do vendedor\n3. Equipe treinada: mais de uma pessoa sabe atender cada cliente\n\nPrepare a loja antes de alguém pedir as contas.\n\nIsso já aconteceu na sua loja? Conta aqui nos comentários.\n\nDiagnóstico sem custo: link na bio.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #GestaoDePessoas #Lideranca #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-13-15h-custo-troca-vendedor",
+   "modelo": "carrossel",
+   "data": "2026-11-13T15:00:00",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "A CONTA DA LOJA",
+     "titulo": [
+      "QUANTO CUSTA",
+      "TROCAR UM",
+      "VENDEDOR?"
+     ],
+     "sub": "Bem mais do que **a rescisão**.",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "O QUE ENTRA NA CONTA",
+     "itens": [
+      [
+       "Rescisão e encargos",
+       "O custo que todo mundo vê"
+      ],
+      [
+       "Vaga aberta por semanas",
+       "Balcão desfalcado, fila e venda perdida"
+      ],
+      [
+       "Tempo do gerente contratando",
+       "Anúncio, entrevista, teste"
+      ],
+      [
+       "Dois a três meses aprendendo",
+       "O novo vende menos enquanto aprende"
+      ],
+      [
+       "Clientes que iam com o antigo",
+       "Parte deles não volta"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "CONTRATAR BEM",
+      "SAI MAIS BARATO"
+     ],
+     "sub": "Seleção, **treinamento e acompanhamento** custam menos que a troca."
+    }
+   ],
+   "legenda": "A conta da loja: quanto custa trocar um vendedor?\n\nBem mais do que a rescisão:\n\n1. Rescisão e encargos\n2. Semanas com a vaga aberta e o balcão desfalcado\n3. Tempo do gerente anunciando, entrevistando e testando\n4. Dois a três meses do novo vendendo menos enquanto aprende\n5. Clientes que iam com o antigo e não voltam\n\nContratar bem, treinar e acompanhar sai mais barato que trocar.\n\nSalve e mande para quem contrata na sua loja.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #GestaoDePessoas #Contratacao #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-13-dica-cliente-no-sistema",
+   "modelo": "dica",
+   "data": "2026-11-13T21:30:00",
+   "kicker": "DICA RÁPIDA",
+   "icone": "telefone",
+   "titulo": [
+    "O CONTATO DO CLIENTE",
+    "É DA LOJA"
+   ],
+   "sub": "Cadastre no sistema, **não só no celular** do vendedor.",
+   "legenda": "Dica rápida: o contato do cliente é da loja.\n\nTodo cliente atendido entra no cadastro do sistema: nome, telefone e o tipo de obra.\n\nSe estiver só no WhatsApp pessoal do vendedor, no dia em que ele sair, os clientes vão junto.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #GestaoDeClientes #Vendas #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-14-feed-cadastro-de-produto",
+   "data": "2026-11-14T10:00:00",
+   "kicker": "SISTEMA EM ORDEM",
+   "titulo": [
+    "CADASTRO BAGUNÇADO",
+    "CUSTA CARO"
+   ],
+   "sub": "Se o sistema está errado, **todo número da loja** está errado junto.",
+   "cards": [
+    {
+     "icone": "duplicado",
+     "titulo": "Código duplicado",
+     "texto": "O mesmo produto com dois cadastros"
+    },
+    {
+     "icone": "alvo",
+     "titulo": "Unidade errada",
+     "texto": "Vende por metro, cadastrado por peça"
+    },
+    {
+     "icone": "relogio",
+     "titulo": "Custo velho",
+     "texto": "Margem calculada com preço antigo"
+    }
+   ],
+   "frase": "Revise o cadastro dos **itens que mais vendem** primeiro.",
+   "legenda": "Cadastro de produto bagunçado custa caro.\n\nQuando o sistema está errado, todo número da loja está errado junto: estoque, margem, compra.\n\nOs três erros mais comuns:\n\n1. Código duplicado: o mesmo produto com dois cadastros\n2. Unidade errada: vende por metro, cadastrado por peça\n3. Custo desatualizado: margem calculada com preço antigo\n\nComece revisando os itens que mais vendem.\n\nComo está o cadastro da sua loja? Conta aqui nos comentários.\n\nDiagnóstico sem custo: link na bio.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #GestaoDeEstoque #Sistema #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-14-15h-lista-do-banheiro",
+   "modelo": "carrossel",
+   "data": "2026-11-14T15:00:00",
+   "slides": [
+    {
+     "tipo": "capa",
+     "kicker": "MANDE PARA SUA EQUIPE",
+     "titulo": [
+      "CLIENTE VAI",
+      "REFORMAR O",
+      "BANHEIRO?"
+     ],
+     "sub": "Pergunte pela **lista completa** antes de passar o preço.",
+     "sub_top": 850
+    },
+    {
+     "tipo": "lista",
+     "titulo": "O QUE NÃO PODE FALTAR",
+     "itens": [
+      [
+       "Base e impermeabilização",
+       "Argamassa, impermeabilizante, ralo"
+      ],
+      [
+       "Hidráulica",
+       "Tubos, conexões, registros, veda-rosca"
+      ],
+      [
+       "Revestimento",
+       "Piso, parede, argamassa colante, rejunte"
+      ],
+      [
+       "Louças e metais",
+       "Vaso, cuba, torneira, chuveiro"
+      ],
+      [
+       "Acabamento",
+       "Silicone, espaçador, ferragens, acessórios"
+      ]
+     ]
+    },
+    {
+     "tipo": "final",
+     "titulo": [
+      "VENDA A OBRA,",
+      "NÃO SÓ O PISO"
+     ],
+     "sub": "Quem monta a lista com o cliente **vende o banheiro inteiro**."
+    }
+   ],
+   "legenda": "Mande para a sua equipe: cliente vai reformar o banheiro?\n\nAntes de passar o preço do piso, monte a lista completa com ele:\n\n1. Base e impermeabilização\n2. Hidráulica: tubos, conexões, registros\n3. Revestimento: piso, parede, argamassa colante, rejunte\n4. Louças e metais\n5. Acabamento: silicone, espaçador, acessórios\n\nQuem monta a lista com o cliente vende o banheiro inteiro.\n\nSalve e mande para o seu balcão.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #Vendas #TreinamentoDeEquipe #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-14-dica-avaliacoes-google",
+   "modelo": "dica",
+   "data": "2026-11-14T21:30:00",
+   "kicker": "DICA RÁPIDA",
+   "icone": "coracao",
+   "titulo": [
+    "RESPONDA AS AVALIAÇÕES",
+    "NO GOOGLE"
+   ],
+   "sub": "Elogio ou reclamação: **toda avaliação** merece resposta educada.",
+   "legenda": "Dica rápida: responda as avaliações da sua loja no Google.\n\nQuem procura material de construção na cidade olha as estrelas e lê as respostas.\n\nAgradeça os elogios. Nas reclamações, responda com educação e mostre o que foi resolvido. Uma boa resposta vale mais que uma nota alta sem resposta.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #Marketing #Atendimento #VarejoMatcon #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-15-feed-proclamacao",
+   "modelo": "mensagem",
+   "data": "2026-11-15T10:00:00",
+   "kicker": "PROCLAMAÇÃO DA REPÚBLICA",
+   "titulo": [
+    "UM PAÍS SE CONSTRÓI",
+    "TODO DIA"
+   ],
+   "sub": "Com o trabalho de **quem abre a loja cedo** e de quem levanta cada parede.",
+   "legenda": "15 de novembro, Proclamação da República.\n\nUm país se constrói todo dia: com o trabalho de quem abre a loja cedo, de quem atende no balcão, de quem entrega na obra e de quem levanta cada parede.\n\nBom feriado a todos os lojistas e às suas equipes.\n\nFORTÍS SOLUÇÕES MATCON\n\n#ProclamacaoDaRepublica #MaterialDeConstrucao #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-15-15h-quem-constroi",
+   "modelo": "mensagem",
+   "data": "2026-11-15T15:00:00",
+   "kicker": "HOMENAGEM",
+   "titulo": [
+    "A LOJA DE MATERIAL",
+    "ESTÁ EM CADA OBRA"
+   ],
+   "sub": "Do primeiro saco de cimento à última peça de acabamento, **a loja do bairro está lá**.",
+   "sub_top": 820,
+   "legenda": "A loja de material de construção está em cada obra do Brasil.\n\nDo primeiro saco de cimento à última peça de acabamento, é a loja do bairro que abastece a reforma da família, a casa nova e a obra do pedreiro.\n\nNeste feriado, nossa homenagem a quem faz esse trabalho todos os dias.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #ConstrucaoCivil #FortisSolucoesMatcon"
+  },
+  {
+   "arquivo": "2026-11-15-dica-tres-vitorias",
+   "modelo": "dica",
+   "data": "2026-11-15T21:30:00",
+   "kicker": "DICA RÁPIDA",
+   "icone": "alvo",
+   "titulo": [
+    "ANOTE 3 VITÓRIAS",
+    "DA SEMANA"
+   ],
+   "sub": "Lembrar do que deu certo **dá energia** para resolver o que falta.",
+   "legenda": "Dica rápida: antes de começar a semana, anote 3 vitórias da semana que passou.\n\nUma venda grande, um problema resolvido, um elogio de cliente.\n\nDono de loja passa o dia apagando incêndio e esquece do que deu certo. Lembrar das vitórias dá energia para encarar o que ainda falta.\n\nSalve este post para usar depois.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#MaterialDeConstrucao #LojaDeMaterialDeConstrucao #DonoDeLoja #Lideranca #VarejoMatcon #FortisSolucoesMatcon"
+  }
+ ],
+ "stories": [
+  {
+   "arquivo": "2026-11-10-story-06h",
+   "data": "2026-11-10T06:00:00",
+   "kicker": "BOM DIA, LOJISTA",
+   "titulo": [
+    "TERÇA É DIA DE",
+    "FECHAR PEDIDO PENDENTE"
+   ],
+   "sub": "Pedido que ficou de ontem **vira cliente esperando** hoje.",
+   "frase": "Comece pelo mais antigo."
+  },
+  {
+   "arquivo": "2026-11-10-story-1930",
+   "data": "2026-11-10T19:30:00",
+   "kicker": "PERGUNTA DE HOJE",
+   "titulo": [
+    "SUA LOJA ABRE",
+    "SÁBADO À TARDE?"
+   ],
+   "sub": "Vale a pena ou o movimento não compensa? **Conte para a gente.**",
+   "frase": "Responda este story pelo direct."
+  },
+  {
+   "arquivo": "2026-11-11-story-06h",
+   "data": "2026-11-11T06:00:00",
+   "kicker": "BOM DIA, LOJISTA",
+   "titulo": [
+    "METADE DO MÊS.",
+    "COMO ESTÁ A META?"
+   ],
+   "sub": "Ainda dá tempo de **corrigir o rumo** antes do dia 30.",
+   "frase": "Olhe o número antes de abrir."
+  },
+  {
+   "arquivo": "2026-11-11-story-1930",
+   "data": "2026-11-11T19:30:00",
+   "kicker": "PERGUNTA DE HOJE",
+   "titulo": [
+    "QUANTOS FORNECEDORES",
+    "VOCÊ COTA NO CIMENTO?"
+   ],
+   "sub": "Um, dois, três ou mais? **Conte para a gente.**",
+   "frase": "Responda este story pelo direct."
+  },
+  {
+   "arquivo": "2026-11-12-story-06h",
+   "data": "2026-11-12T06:00:00",
+   "kicker": "BOM DIA, LOJISTA",
+   "titulo": [
+    "LIGUE HOJE PARA",
+    "UM CLIENTE ANTIGO"
+   ],
+   "sub": "Aquele que **sumiu há meses**. Pergunte como está a obra.",
+   "frase": "Uma ligação pode virar uma venda."
+  },
+  {
+   "arquivo": "2026-11-12-story-1930",
+   "data": "2026-11-12T19:30:00",
+   "kicker": "PERGUNTA DE HOJE",
+   "titulo": [
+    "QUANDO FOI A ÚLTIMA",
+    "VEZ QUE VOCÊ TIROU FÉRIAS?"
+   ],
+   "sub": "Sem levar a loja no celular. **Conte para a gente.**",
+   "frase": "Responda este story pelo direct."
+  },
+  {
+   "arquivo": "2026-11-13-story-06h",
+   "data": "2026-11-13T06:00:00",
+   "kicker": "BOM DIA, LOJISTA",
+   "titulo": [
+    "TIRE HOJE A PLACA",
+    "DE PROMOÇÃO VENCIDA"
+   ],
+   "sub": "Preço da placa diferente do caixa **é cliente irritado** no balcão.",
+   "frase": "Confira antes de abrir."
+  },
+  {
+   "arquivo": "2026-11-13-story-1930",
+   "data": "2026-11-13T19:30:00",
+   "kicker": "PERGUNTA DE HOJE",
+   "titulo": [
+    "QUANTO TEMPO SEU",
+    "VENDEDOR FICA NA LOJA?"
+   ],
+   "sub": "Meses ou anos? **Conte para a gente.**",
+   "frase": "Responda este story pelo direct."
+  },
+  {
+   "arquivo": "2026-11-14-story-06h",
+   "data": "2026-11-14T06:00:00",
+   "kicker": "BOM DIA, LOJISTA",
+   "titulo": [
+    "SÁBADO É DIA",
+    "DE BALCÃO RÁPIDO"
+   ],
+   "sub": "Mais gente no atendimento **no horário de pico**.",
+   "frase": "Fila curta, venda maior."
+  },
+  {
+   "arquivo": "2026-11-14-story-1930",
+   "data": "2026-11-14T19:30:00",
+   "kicker": "PERGUNTA DE HOJE",
+   "titulo": [
+    "SUA LOJA ABRE",
+    "NOS FERIADOS?"
+   ],
+   "sub": "Vale a pena abrir ou é melhor descansar? **Conte para a gente.**",
+   "frase": "Responda este story pelo direct."
+  },
+  {
+   "arquivo": "2026-11-15-story-06h",
+   "data": "2026-11-15T06:00:00",
+   "kicker": "15 DE NOVEMBRO",
+   "titulo": [
+    "BOM DOMINGO",
+    "E BOM FERIADO"
+   ],
+   "sub": "Dia de **descansar com a família** e recarregar para a semana.",
+   "frase": "Um abraço de toda a equipe Fortís."
+  },
+  {
+   "arquivo": "2026-11-15-story-1930",
+   "data": "2026-11-15T19:30:00",
+   "kicker": "PERGUNTA DE HOJE",
+   "titulo": [
+    "QUAL A META DA",
+    "SUA LOJA PARA DEZEMBRO?"
+   ],
+   "sub": "Maior, igual ou menor que a de novembro? **Conte para a gente.**",
+   "frase": "Responda este story pelo direct."
+  }
+ ]
+}
