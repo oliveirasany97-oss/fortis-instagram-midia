@@ -1,0 +1,31 @@
+{
+  "pasta": "posts/2026-11/leads-16-21",
+  "feed": [
+    {
+      "arquivo": "2026-11-18-1240-numeros-do-mes",
+      "modelo": "carrossel",
+      "data": "2026-11-18T12:40:00",
+      "slides": [
+        {"tipo": "capa", "kicker": "SALVE E CONFIRA NA SUA LOJA", "titulo": ["TODO MÊS,", "A LOJA DE MATERIAL", "PRECISA OLHAR"], "sub": "Cinco números que mostram se a loja está **ganhando dinheiro** ou só **girando mercadoria**.", "sub_top": 880},
+        {"tipo": "lista", "titulo": "5 NÚMEROS DO MÊS", "itens": [
+          ["Margem bruta real", "O que sobrou depois do custo, não só o que vendeu"],
+          ["Giro do estoque", "Quanto tempo o dinheiro fica parado na prateleira"],
+          ["Ticket médio", "Quanto cada cliente deixa, em média, por compra"],
+          ["Conversão de orçamentos", "De cada 10 orçamentos, quantos viraram venda"],
+          ["Contas a receber em atraso", "Venda a prazo que ainda não virou dinheiro no caixa"]
+        ]},
+        {"tipo": "final", "titulo": ["QUANTOS", "VOCÊ ACOMPANHA?"], "sub": "Faça o **teste de maturidade da loja**: 12 perguntas, nota de 0 a 100 e por onde começar. **Link na bio.**", "sub_top": 820}
+      ],
+      "texto": "Todo mês, a loja de material de construção precisa olhar estes 5 números. Quantos você acompanha hoje?\n\n1. Margem bruta real (o que sobrou depois do custo)\n2. Giro do estoque\n3. Ticket médio\n4. Conversão de orçamentos\n5. Contas a receber em atraso\n\nQuer saber a nota da sua loja? Faça o teste de maturidade: 12 perguntas, nota de 0 a 100 e a área por onde começar. O link está na bio.\n\nSalve e mande para o seu gerente.\n\nFORTÍS SOLUÇÕES MATCON\nGestão que gera resultado.\n\n#LojaDeMaterialDeConstrucao #MaterialDeConstrucao #VarejoDaConstrucao #MaterialDeConstrucaoRJ #GestaoDeLojas #Mariana #FortisSolucoesMatcon"
+    }
+  ],
+  "stories": [
+    {"arquivo": "2026-11-16-story-0740", "data": "2026-11-16T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["PRAZO DE ENTREGA", "COMBINADO"], "sub": "O cliente sai do balcão com **dia e período da entrega anotados** ou só com um \"amanhã a gente leva\"?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-17-story-0740", "data": "2026-11-17T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["TABELA DE PREÇO", "ATUALIZADA"], "sub": "Quando o fornecedor reajusta, **o seu preço de venda muda no mesmo dia**?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-18-story-0740", "data": "2026-11-18T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["CADASTRO", "DE CLIENTE"], "sub": "Você sabe **quem comprou, o quê e quando** para chamar de volta na próxima etapa da obra?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-19-story-0740", "data": "2026-11-19T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["ESTOQUE DE", "SEGURANÇA"], "sub": "Cimento, areia e vergalhão têm **uma reserva para a obra do cliente não parar**?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-21-story-0740", "data": "2026-11-21T07:40:00", "kicker": "SUA LOJA TEM?", "titulo": ["META", "DO DIA"], "sub": "A equipe **começa o dia sabendo quanto precisa vender** até fechar a porta?", "frase": "Teste de maturidade da loja: link na bio."},
+    {"arquivo": "2026-11-17-story-1240", "data": "2026-11-17T12:40:00", "kicker": "A CONTA DA LOJA · EXEMPLO", "titulo": ["FRETE NÃO COBRADO", "= R$ 1.500/MÊS"], "sub": "Exemplo: 60 entregas por mês, R$ 25 de custo cada, sem repassar ao cliente. **Quanto o frete come da sua margem?**", "frase": "Faça a conta no link da bio."},
+    {"arquivo": "2026-11-19-story-1240", "data": "2026-11-19T12:40:00", "kicker": "A CONTA DA LOJA · EXEMPLO", "titulo": ["ORÇAMENTO PARADO", "= R$ 8 MIL/MÊS"], "sub": "Exemplo: 10 orçamentos por mês sem retorno, de R$ 800 cada. **Quantos estão parados na sua loja?**", "frase": "Faça a conta no link da bio."}
+  ]
+}
