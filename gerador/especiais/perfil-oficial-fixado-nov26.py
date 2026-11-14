@@ -25,5 +25,22 @@ def feed():
   <div class="rodape" style="top:1260px;font-size:22px">FORTÍS SOLUÇÕES MATCON</div>
 </div>"""
 
+def story():
+    w, h = 1080, 1920
+    return f"""<div class="arte" style="width:{w}px;height:{h}px">{G.fundo(w,h,1.2)}
+  <img class="logo" src="{G.A}/logo.png" style="top:200px;width:170px">
+  <div class="kicker" style="top:500px;font-size:30px">COMUNICADO</div>
+  <div class="titulo" data-max="920" data-fs="104" style="top:552px;line-height:1.04"><div class="branco">ESTE É O NOVO</div><div class="metal">PERFIL OFICIAL</div></div>
+  <p class="sub" style="top:800px;left:100px;right:100px;font-size:35px">Nosso perfil anterior, <b>@fortis.solucoesmatcon</b>, foi desativado pelo Instagram. Seguimos com a <b>mesma equipe e os mesmos serviços</b>.</p>
+  <div style="{CARD};top:1080px;padding:34px 40px">
+    <div style="font-size:26px;letter-spacing:6px;color:var(--gold);font-weight:600;margin-bottom:6px">FALE COM A GENTE</div>
+    <div style="{LIN};padding:18px 0"><span style="{ROT}">WhatsApp</span><span style="{VAL}">(31) 99898-1530</span></div>
+    <div style="{LIN};padding:18px 0"><span style="{ROT}">Site</span><span style="{VAL}">fortismatcon.com.br</span></div>
+    <div style="{LIN};padding:18px 0;border-bottom:0"><span style="{ROT}">E-mail</span><span style="{VAL}">contato@fortismatcon.com.br</span></div>
+  </div>
+  <p class="sub" style="top:1500px;left:110px;right:110px;font-size:32px;color:#c4ccda">Siga <b style="color:var(--gold)">@fortismatcon.oficial</b></p>
+  <div class="rodape" style="top:1690px;font-size:24px">FORTÍS SOLUÇÕES MATCON</div>
+</div>"""
+
 saida = os.path.join(G.RAIZ, 'posts', '2026-11', 'especiais')
-asyncio.run(G.renderizar([('perfil-oficial-fixado-feed', feed(), (1080, 1350))], saida))
+asyncio.run(G.renderizar([('perfil-oficial-fixado-feed', feed(), (1080, 1350)), ('perfil-oficial-story', story(), (1080, 1920))], saida))
