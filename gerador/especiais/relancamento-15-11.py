@@ -101,8 +101,8 @@ def story_porcelanato():
   <p class="sub" style="top:800px;left:90px;right:90px;font-size:34px">O que separa um do outro é a <b>absorção de água</b>:</p>
   <div class="card" style="position:absolute;top:900px;left:90px;right:90px;padding:6px 0;text-align:left">{tab}</div>
   <p class="sub" style="top:1380px;left:90px;right:90px;font-size:31px">Quanto menor a absorção, maior a resistência. O porcelanato técnico chega a <b>até 0,1%</b>.</p>
-  <div class="rodape" style="bottom:470px;font-size:22px">FORTÍS SOLUÇÕES MATCON</div>
-  <div style="{FONTE};bottom:360px">Fonte: ABNT NBR ISO 13006 e ABNT NBR 15463 (porcelanato), citadas em manual técnico Decortiles e na revista Cerâmica Industrial</div>''', .93)
+  <div class="rodape" style="bottom:360px;font-size:22px">FORTÍS SOLUÇÕES MATCON</div>
+  <div style="{FONTE};bottom:220px">Fonte: ABNT NBR ISO 13006 e ABNT NBR 15463 (porcelanato), citadas em manual técnico Decortiles e na revista Cerâmica Industrial</div>''', .93)
 
 def story_flow():
     itens = [("Falta avisada na hora", "O vendedor registra a ruptura no celular."),
