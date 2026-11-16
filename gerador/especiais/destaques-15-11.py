@@ -13,8 +13,7 @@ def tit(l):
 
 def capa(ic):
     return f'''<div class="arte" style="width:{W}px;height:{H}px">
-  <div class="glow" style="width:700px;height:700px;left:190px;top:610px;background:rgba(217,181,121,.16)"></div>
-  <div class="card" style="position:absolute;left:290px;top:710px;width:500px;height:500px;border-radius:50%;border-width:8px;display:flex;align-items:center;justify-content:center">{G.icone(ic, 250)}</div></div>'''
+  <div class="card" style="position:absolute;left:70px;top:490px;width:940px;height:940px;border-radius:50%;border-width:14px;display:flex;align-items:center;justify-content:center">{G.icone(ic, 500)}</div></div>'''
 
 def story(kicker, titulo, sub, cta, fs=100):
     return f'''<div class="arte" style="width:{W}px;height:{H}px">{G.fundo(W, H, .93)}
@@ -29,10 +28,10 @@ def story(kicker, titulo, sub, cta, fs=100):
   <div class="handle" style="bottom:385px;font-size:24px">@fortismatcon.oficial</div></div>'''
 
 itens = [(f"capa-{n}", capa(ic), (W, H)) for n, ic in [("comece-aqui", "seta_acao"), ("mercado", "grafico"), ("dicas", "lampada"), ("flow", "app"), ("obras", "obra"), ("diagnostico", "lupa")]]
-itens += [
+itens_st = [
  ("comece-1", story("COMECE AQUI", ["GESTÃO PARA LOJAS", "DE MATERIAL DE CONSTRUÇÃO"], "A Fortís trabalha <b>só com o varejo MATCON</b>: compras, equipe e números organizados, de loja em loja, lado a lado com o dono.", "Seja bem-vindo.", 84), (W, H)),
  ("comece-2", story("O QUE VOCÊ ENCONTRA AQUI", ["CONTEÚDO PARA", "QUEM VIVE O BALCÃO"], "<b>12h:</b> notícias do mercado de material de construção.<br><b>18h:</b> dicas técnicas de produto.<br><b>No feed:</b> gestão de loja na prática.", "Tudo com fonte e sem enrolação.", 92), (W, H)),
  ("comece-3", story("FALE COM A GENTE", ["SUA LOJA TEM", "UMA DÚVIDA?"], "Mande uma mensagem aqui no <b>direct</b> ou no WhatsApp <b>(31) 99898-1530</b>.", "Quem responde conhece loja por dentro.", 100), (W, H)),
  ("diagnostico-1", story("DIAGNÓSTICO SEM CUSTO", ["15 MINUTOS", "SOBRE A SUA LOJA"], "Uma conversa rápida, <b>por vídeo ou na loja</b>, para enxergar onde estão os gargalos de compras, equipe e margem.", "WhatsApp <b>(31) 99898-1530</b>", 104), (W, H)),
 ]
-asyncio.run(G.renderizar(itens, os.path.join(G.RAIZ, 'posts', '2026-11', 'destaques')))
+asyncio.run(G.renderizar(itens if '--capas' in sys.argv else itens + itens_st, os.path.join(G.RAIZ, 'posts', '2026-11', 'destaques')))
