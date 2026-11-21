@@ -101,62 +101,62 @@ def row(left, right, gap=40):
     return f'<div style="display:flex;align-items:center;justify-content:center;gap:{gap}px;width:100%">{left}{right}</div>'
 
 
-# ================= FEED 10:30 — CARROSSEL SALVÁVEL: A VENDA QUE FICA NO BALCÃO =================
-def balcao():
+# ================= FEED 10:30 — CARROSSEL SALVÁVEL: TEMPORADA DE CHUVA =================
+def chuva():
     capa = feed(f'''{kicker("MANDE PARA SUA EQUIPE")}
-  {titulo(["A VENDA QUE", "FICA NO BALCÃO"], 118)}
-  {sub("Perguntas que o vendedor faz <b>antes de fechar o pedido</b> e que o cliente agradece depois.", 36, 110)}
+  {titulo(["CHOVEU.", "A LOJA ESTÁ PRONTA?"], 112)}
+  {sub("Ajustes para a temporada de chuva: <b>vender o que ela pede e não perder estoque.</b>", 36, 110)}
   <p class="cta k" style="font-size:30px;color:var(--gold)">Deslize para o lado →</p>''', 170, 1.3)
-    s2 = feed(f'''{kicker("ANTES DE FECHAR")}
-  {titulo(["PERGUNTE"], 100)}
-  {lista([("“Para qual etapa da obra é?”", "Quem sabe a etapa sabe o que vem junto."),
-          ("“Já tem o que vai assentar?”", "Piso pede argamassa, rejunte e espaçador."),
-          ("“Quem vai fazer o serviço?”", "O profissional costuma pedir o que falta.")], 34, 24)}''', 110, .9)
-    s3 = feed(f'''{kicker("E COMPLETE")}
-  {titulo(["MAIS DUAS"], 100)}
-  {lista([("“Tem ferramenta para isso?”", "Desempenadeira, nível, broca, disco, fita."),
-          ("“Quer levar uma sobra?”", "Uma pequena reserva evita a volta à loja e a falta de lote igual.")], 34, 24, ini=4)}
-  {sub("Não é empurrar produto: é <b>evitar a segunda viagem.</b>", 30, 110)}''', 110, .9)
-    fim = feed(f'''{titulo(["COMBINE COM", "A EQUIPE"], 104)}
-  {lista([("Uma pergunta por venda", "Comece com a da etapa da obra."),
-          ("Lista no balcão", "As perguntas à vista de todo vendedor."),
-          ("Converse no fim da semana", "Qual pergunta mais gerou venda?")], 32, 23, num=False)}
-  <p class="cta k" style="font-size:30px;padding:0 90px">Quer montar o roteiro de atendimento da sua loja? <b>Chame no direct.</b></p>''', 110, 1.3)
-    return [("1030-venda-no-balcao-1", capa), ("1030-venda-no-balcao-2", s2), ("1030-venda-no-balcao-3", s3), ("1030-venda-no-balcao-4", fim)]
+    s2 = feed(f'''{kicker("NA FRENTE DA LOJA")}
+  {titulo(["EXPONHA O QUE", "A CHUVA PEDE"], 96)}
+  {lista([("Impermeabilizante e manta", "Perto da entrada, com o vendedor sabendo indicar o uso."),
+          ("Calha, rufo e telha", "Quem está com goteira quer resolver no mesmo dia."),
+          ("Lona", "Obra parada pela chuva precisa cobrir o material.")], 34, 24)}''', 110, 1.3)
+    s3 = feed(f'''{kicker("NO DEPÓSITO")}
+  {titulo(["PROTEJA", "O ESTOQUE"], 100)}
+  {lista([("Saco fora do chão", "Cimento, argamassa e rejunte sobre estrado, longe da parede."),
+          ("Olhe o telhado do depósito", "Goteira em cima de saco é prejuízo que ninguém vê."),
+          ("Saco mais antigo sai primeiro", "Quanto mais tempo parado na umidade, maior o risco de perda.")], 32, 23, ini=4)}''', 110, 1.3)
+    fim = feed(f'''{titulo(["E NA", "ENTREGA"], 104)}
+  {lista([("Confirme antes de sair", "A obra consegue receber hoje?"),
+          ("Lona no caminhão", "Material molhado na entrega volta como reclamação."),
+          ("Reagende avisando", "Cliente avisado não fica esperando à toa.")], 32, 23, num=False)}
+  <p class="cta k" style="font-size:30px;padding:0 90px">Quer preparar a loja para a chuva? <b>Chame no direct.</b></p>''', 110, 1.3)
+    return [("1030-temporada-de-chuva-1", capa), ("1030-temporada-de-chuva-2", s2), ("1030-temporada-de-chuva-3", s3), ("1030-temporada-de-chuva-4", fim)]
 
 
-# ================= FEED 15:30 — A CONTA DA LOJA: GIRO =================
-def conta_giro():
-    tab = tabela([("<span class='h'>MESMOS R$ 6.000</span>", "<span class='h'>GANHO BRUTO NO ANO</span>"),
-                  ("Gira 1 vez no ano", "R$ 1.500"), ("Gira 6 vezes no ano", "R$ 9.000")], 30, destaque=(2,))
+# ================= FEED 15:30 — A CONTA DA LOJA: TAXA DA MAQUININHA =================
+def conta_taxa():
+    tab = tabela([("Venda no crédito", "R$ 1.000"), ("Lucro bruto (margem de 25%)", "R$ 250"),
+                  ("Taxa da maquininha (4%)", "− R$ 40"), ("O que sobra do lucro", "R$ 210")], 30, destaque=(3,))
     return feed(f'''{kicker("A CONTA DA LOJA")}
-  {titulo(["MESMO DINHEIRO,", "6 VEZES O GANHO"], 88)}
-  {sub("Ganho bruto de 25% sobre o custo = <b>R$ 1.500 a cada vez</b> que o estoque gira.", 29, 100)}
+  {titulo(["A MAQUININHA", "É SÓCIA DA VENDA"], 92)}
+  {sub("Perto da venda, a taxa parece pequena. <b>Perto do lucro, ela leva 16%.</b>", 30, 100)}
   {card(tab, "4px 0", 860)}
   <div class="k"><span class="selo">EXEMPLO ILUSTRATIVO</span></div>
-  <p class="cta k" style="font-size:29px;padding:0 80px">Produto parado na prateleira não paga conta. <b>Quer olhar o giro da sua loja? Chame no direct.</b></p>''', 110, 1.3)
+  <p class="cta k" style="font-size:29px;padding:0 80px">Você sabe quanto paga de taxa em cada forma de pagamento? <b>Chame no direct.</b></p>''', 110, 1.3)
 
 
 # ================= FEED 19:30 — ESPELHO DO DONO =================
 def espelho():
     return feed(f'''{kicker("ESPELHO DO DONO")}
-  {titulo(["ORÇAMENTO ENVIADO,", "CLIENTE SUMIDO"], 92)}
-  {lista([("O orçamento sai pelo WhatsApp", "E ninguém liga de volta para saber o que achou."),
-          ("Ninguém sabe quantos estão abertos", "Nem quanto dinheiro está parado neles."),
-          ("O vendedor que fez saiu de folga", "E o cliente não tem com quem falar."),
-          ("Dias depois, a obra está na rua", "Com material comprado em outra loja.")], 32, 23, num=False)}
-  <p class="cta k" style="font-size:30px;padding:0 80px">Orçamento sem retorno é venda que a loja entregou de graça. <b>Se você se viu aqui, chame no direct.</b></p>''', 120, 1.3)
+  {titulo(["VENDE BEM, MAS O", "DINHEIRO NÃO APARECE"], 88)}
+  {lista([("O mês foi bom de venda", "Mas a conta do banco não acompanhou."),
+          ("Parte do lucro virou mercadoria", "Compra a mais fica no depósito, não no caixa."),
+          ("O prazo do cliente esticou", "A venda saiu, o dinheiro ainda não entrou."),
+          ("A conta da casa e a da loja se misturam", "E ninguém sabe quanto a loja lucrou de verdade.")], 32, 23, num=False)}
+  <p class="cta k" style="font-size:30px;padding:0 80px">Vender bem e lucrar bem são coisas diferentes. <b>Se você se viu aqui, chame no direct.</b></p>''', 120, 1.3)
 
 
 # ================= FEED 22:30 — TODA LOJA PRECISA TER =================
 def toda_loja():
     return feed(f'''{kicker("TODA LOJA PRECISA TER")}
-  {titulo(["O CADASTRO DO", "CLIENTE DE OBRA"], 96)}
-  {sub("Obra compra por <b>meses</b>. Quem sabe em que fase ela está, sabe o que oferecer.", 29, 100)}
-  {lista([("Nome e WhatsApp", "Para falar com o cliente sem depender do vendedor."),
-          ("Endereço da obra", "Ajuda na entrega e mostra a região onde a loja vende."),
-          ("Fase da obra", "Fundação, alvenaria, instalações ou acabamento."),
-          ("Profissional responsável", "Pedreiro, eletricista, encanador: quem decide junto.")], 31, 23)}
+  {titulo(["A CALCULADORA", "DO BALCÃO"], 104)}
+  {sub("O cliente pergunta <b>quanto precisa levar</b>. Quem responde certo vende a quantidade certa.", 29, 100)}
+  {lista([("Rendimento dos fabricantes à mão", "Argamassa, rejunte e tinta: o consumo está na embalagem e na ficha técnica."),
+          ("Uma folha de cálculo padrão", "Área, consumo e quantidade, do mesmo jeito para todo vendedor."),
+          ("Conta feita na frente do cliente", "Ele vê de onde saiu o número e confia no pedido."),
+          ("Perda combinada", "Recorte e quebra entram na conta, sem chute.")], 31, 23)}
   <p class="cta k" style="font-size:29px;padding:0 80px">Sua loja já tem? <b>Diagnóstico sem custo no direct.</b></p>''', 96, 1.3)
 
 
@@ -172,29 +172,29 @@ def story_pmc():
       'Fonte: IBGE, PMC set/2026 · via InfoMoney e Brasil em Folhas', 80)
 
 
-# ================= STORY 18:00 — PRODUTO: CERÂMICA x PORCELANATO =================
-def story_porcelanato():
-    tab = tabela([("<span class='h'>PLACA</span>", "<span class='h'>ABSORÇÃO DE ÁGUA</span>"),
-                  ("Porcelanato técnico", "até 0,1%"), ("Porcelanato esmaltado", "até 0,5%"),
-                  ("Grés", "0,5% a 3%"), ("Semigrés", "3% a 6%"), ("Semiporoso", "6% a 10%"), ("Poroso", "acima de 10%")], 24)
+# ================= STORY 18:00 — PRODUTO: FIO 1,5 x 2,5 (NBR 5410) =================
+def story_fios():
+    tab = tabela([("<span class='h'>CIRCUITO</span>", "<span class='h'>SEÇÃO MÍNIMA</span>"),
+                  ("Iluminação", "1,5 mm²"), ("Tomadas de uso geral", "2,5 mm²")], 30)
     return story(f'''{kicker("ENTENDA A DIFERENÇA", 26)}
-  {titulo(["CERÂMICA OU", "PORCELANATO?"], 84, 900)}
-  {sub("A diferença está em <b>quanta água a placa absorve.</b> Vendedor que explica isso <b>vende a placa certa.</b>", 28, 90)}
-  {card(tab)}''',
-      'Fonte: ABNT NBR 15463 e NBR 13818 · Incepa · Sienge', 70)
+  {titulo(["FIO 1,5", "OU 2,5?"], 96, 900)}
+  {card(tab)}
+  {sub("A norma pede <b>circuitos separados</b> para iluminação e tomadas. Equipamento acima de 10 A, como chuveiro e ar-condicionado, tem <b>circuito próprio, dimensionado pelo eletricista.</b>", 28, 80)}
+  <p class="cta k" style="font-size:30px;padding:0 80px">Vendedor que sabe isso <b>vende o fio certo.</b></p>''',
+      'Fonte: ABNT NBR 5410 · O Setor Elétrico · Sienge · Cidesp', 80)
 
 
-# ================= STORY 21:00 — FORTÍS FLOW: METAS INTELIGENTES =================
+# ================= STORY 21:00 — FORTÍS FLOW: ROTA DE ENTREGA =================
 def story_flow():
-    esq = lista([("Meta do mês e realizado", "Cada vendedor vê onde está."),
-                 ("Meta diária necessária", "Quanto falta vender por dia útil."),
-                 ("Projeção de fechamento", "Se o ritmo atual bate a meta.")], 30, 22, w=470)
+    esq = lista([("Calendário de rotas", "Entregas planejadas com antecedência."),
+                 ("Busca por bairro", "Encaixe o pedido na rota da região."),
+                 ("Próximas rotas à vista", "Balcão e entrega olhando a mesma agenda.")], 30, 22, w=470)
     cel = f'''<div style="display:flex;flex-direction:column;align-items:center;gap:44px">
       <div class="k" style="width:280px;height:440px;border-radius:40px;border:8px solid #0b1424;outline:3px solid rgba(217,181,121,.85);box-shadow:0 0 40px rgba(217,181,121,.25);overflow:hidden;background:#0E1F39">
-        <img src="{A}/telas/metas.png" style="width:100%;height:100%;object-fit:cover;object-position:top;display:block"></div>
+        <img src="{A}/telas/rota.png" style="width:100%;height:100%;object-fit:cover;object-position:top;display:block"></div>
       <div class="k" style="font-weight:600;letter-spacing:4px;color:#D9B579;font-size:16px">TELA REAL · DADOS FICTÍCIOS</div></div>'''
     return story(f'''{kicker("FORTÍS FLOW", 28)}
-  {titulo(["META QUE O", "VENDEDOR ENXERGA"], 84, 900)}
+  {titulo(["O CLIENTE SABE", "O DIA DA ENTREGA"], 84, 900)}
   {row(esq, cel)}
   <p class="cta k" style="font-size:32px;padding:0 80px">Quer ver na sua loja? <b>Chame no direct.</b></p>''', None, 90)
 
@@ -202,10 +202,9 @@ def story_flow():
 # ================= STORY 06:00 (22/11) — BOM DIA, LOJISTA =================
 def story_bomdia():
     return story(f'''<div class="kicker k" style="font-size:28px;margin-bottom:12px">BOM DIA, LOJISTA</div>
-  {titulo(["15 MINUTOS", "PARA A SEMANA"], 104, 900)}
-  {sub("Antes de abrir na segunda, reúna a equipe: <b>entregas da semana, folgas de cada dia e a meta de cada vendedor.</b>", 38, 90)}
-  <p class="cta k" style="font-size:36px;padding:0 80px">Semana combinada no começo tem menos correria no meio.</p>''', None, 170)
-
+  {titulo(["QUEM COBRE", "QUEM?"], 112, 900)}
+  {sub("Caixa, balcão, entrega, depósito: para cada função, <b>defina quem assume se alguém faltar.</b> Escreva e deixe à vista.", 38, 90)}
+  <p class="cta k" style="font-size:36px;padding:0 80px">A falta de um não pode parar a loja.</p>''', None, 170)
 
 CHECA_JS = """
 () => {
@@ -263,10 +262,10 @@ async def renderizar(itens, saida):
 
 
 
-itens = [(n, c, (W, H)) for n, c in balcao()]
-itens += [("1530-conta-giro", conta_giro(), (W, H)), ("1930-espelho-orcamento-sumido", espelho(), (W, H)),
-          ("2230-toda-loja-cadastro-obra", toda_loja(), (W, H))]
-itens += [("story-1200-pmc-setembro", story_pmc(), (SW, SH)), ("story-1800-ceramica-porcelanato", story_porcelanato(), (SW, SH)),
-          ("story-2100-flow-metas", story_flow(), (SW, SH)), ("story-0600-22-11-bom-dia", story_bomdia(), (SW, SH))]
+itens = [(n, c, (W, H)) for n, c in chuva()]
+itens += [("1530-conta-taxa-maquininha", conta_taxa(), (W, H)), ("1930-espelho-dinheiro-nao-aparece", espelho(), (W, H)),
+          ("2230-toda-loja-calculadora-balcao", toda_loja(), (W, H))]
+itens += [("story-1200-pmc-setembro", story_pmc(), (SW, SH)), ("story-1800-fio-15-ou-25", story_fios(), (SW, SH)),
+          ("story-2100-flow-rota", story_flow(), (SW, SH)), ("story-0600-22-11-quem-cobre-quem", story_bomdia(), (SW, SH))]
 saida = os.path.join(G.RAIZ, 'posts', '2026-11', 'dia-21-11')
 asyncio.run(renderizar(itens, saida))
