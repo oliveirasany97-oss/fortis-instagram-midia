@@ -77,20 +77,20 @@ SERIE['27-11'] = dict(
     capa("ESCALA 5x2 · O PONTO CEGO", ["O SÁBADO", "VIROU O PROBLEMA"], "Hoje todo mundo trabalha 6 dias. <b>Com 5, alguém precisa folgar durante a semana</b> para cobrir o sábado.", 108),
     slide("POR QUE A CONTA NÃO FECHA", ["DIAS, NÃO", "SÓ HORAS"], [("5 dias por pessoa", "A loja abre 6: um dia fica para outra pessoa cobrir."), ("Dia de 10 horas", "Uma jornada de 8h24 não cobre o dia sozinha."), ("Caixa e balcão", "São os primeiros setores a ficar descobertos.")], 92),
     conta("EXEMPLO · LOJA PEQUENA", ["A CONTA DA", "CALCULADORA"], "Seg a sex das 7h30 às 17h30, sábado até 11h30. <b>Sem hora extra:</b>",
-      [("Equipe hoje", "6 pessoas"), ("Precisa hoje, na 6x1", "7 pessoas"), ("Precisa com 42 h, na 5x2", "10 pessoas")], (2,),
+      [("Equipe hoje", "6 pessoas"), ("Precisa hoje, na 6x1", "8 pessoas"), ("Precisa com 42 h, na 5x2", "11 pessoas")], (2,),
       'A diferença está no <b>desenho da semana.</b>', 84),
     fim(["SIMULE A", "SUA LOJA"], [SITE, ("Escala pronta", "Quem trabalha e quem folga, dia a dia.")], 'Quer ajuda para montar? <b>Chame no direct.</b>')],
-    'Escala 5x2 na loja de material de construção: o sábado virou o problema.\n\nCom 5 dias de trabalho por pessoa e a loja aberta 6, alguém precisa folgar durante a semana para cobrir o sábado. E um dia de 10 horas não cabe numa jornada de 8h24. No exemplo da loja pequena, a equipe que precisa de 7 pessoas hoje passa a precisar de 10 sem hora extra.\n\nSimule a sua loja na calculadora gratuita: fortismatcon.com.br/ferramentas\n\nExemplo ilustrativo. Cada loja deve validar a escala com o seu contador.'),
+    'Escala 5x2 na loja de material de construção: o sábado virou o problema.\n\nCom 5 dias de trabalho por pessoa e a loja aberta 6, alguém precisa folgar durante a semana para cobrir o sábado. E um dia de 10 horas não cabe numa jornada de 8h24. No exemplo da loja pequena, a equipe que precisa de 8 pessoas hoje, sem hora extra, passa a precisar de 11: quem abre a loja não consegue fechar, e cada um tem 1 hora de almoço.\n\nSimule a sua loja na calculadora gratuita: fortismatcon.com.br/ferramentas\n\nExemplo ilustrativo. Cada loja deve validar a escala com o seu contador.'),
   story=('escala-5x2-sabado', chamada("ESCALA 5x2", ["QUEM VAI FOLGAR", "NO SÁBADO?"], "Com 5 dias por pessoa, <b>o sábado precisa sair da folga de alguém.</b> A calculadora monta a escala.", 100)),
 )
 
 # ======================================================================= 02/12 (qua)
 SERIE['02-12'] = dict(
   feed=('escala-5x2-extra-ou-contratar', conta("A CONTA DA LOJA", ["HORA EXTRA", "OU CONTRATAR?"], "Loja pequena, 6 pessoas, Simples Nacional, <b>a partir de 16/12/2026:</b>",
-      [("Só hora extra", "não fecha"), ("Só contratação (4 pessoas)", "R$ 10.062/mês"), ("1 contratação + 41 h extras", "R$ 3.470/mês")], (2,),
+      [("Só hora extra", "não fecha"), ("Só contratação (5 pessoas)", "R$ 12.771/mês"), ("4 contratações + 23 h extras", "R$ 10.689/mês")], (2,),
       f'Calcule a da sua loja:<br><b>{URL}</b>', 88, 27),
-    'Escala 5x2: pagar hora extra ou contratar?\n\nNo exemplo da loja pequena (6 pessoas, Simples Nacional), só com hora extra a conta não fecha: o caixa fica descoberto. Contratar 4 pessoas custa R$ 10.062 por mês. A combinação mais barata, 1 contratação e 41 horas extras, sai por R$ 3.470 por mês.\n\nA calculadora gratuita compara os três caminhos para a sua loja: fortismatcon.com.br/ferramentas\n\nExemplo ilustrativo, com encargos estimados. Confirme os números com o seu contador.'),
-  story=('escala-5x2-extra-ou-contratar', chamada("A CONTA DA LOJA", ["HORA EXTRA", "OU CONTRATAR?"], "A diferença entre a saída certa e a errada pode passar de <b>R$ 6 mil por mês.</b>", 94)),
+    'Escala 5x2: pagar hora extra ou contratar?\n\nNo exemplo da loja pequena (6 pessoas, Simples Nacional), só com hora extra a conta não fecha: o caixa fica descoberto. Contratar 5 pessoas custa R$ 12.771 por mês. A combinação mais barata, 4 contratações e 23 horas extras, sai por R$ 10.689 por mês.\n\nA calculadora gratuita compara os três caminhos para a sua loja: fortismatcon.com.br/ferramentas\n\nExemplo ilustrativo, com encargos estimados. Confirme os números com o seu contador.'),
+  story=('escala-5x2-extra-ou-contratar', chamada("A CONTA DA LOJA", ["HORA EXTRA", "OU CONTRATAR?"], "A diferença entre a saída certa e a errada passa de <b>R$ 2 mil por mês.</b>", 94)),
 )
 
 # ======================================================================= 08/12 (ter)
