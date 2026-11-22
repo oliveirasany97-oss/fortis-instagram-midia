@@ -64,10 +64,10 @@ SERIE = {}
 SERIE['24-11'] = dict(
   feed=('calculadora-5x2-lancamento', [
     capa("NOVO NO SITE DA FORTÍS", ["CALCULADORA DA", "ESCALA 5x2"], "Gratuita. Em poucos minutos você sabe <b>quantas pessoas a sua loja vai precisar</b> em 16 de dezembro."),
-    slide("VOCÊ INFORMA", ["3 COISAS"], [("Horário da loja", "Cada dia da semana, inclusive sábado e domingo."), ("Equipe por função", "Vendas, caixa, depósito, entrega."), ("Salário e tributação", "Simples Nacional ou Lucro Presumido/Real.")]),
-    slide("ELA MOSTRA", ["A RESPOSTA"], [("Quantas pessoas", "Hoje, com 42 horas e com 40 horas."), ("Quanto custa cada saída", "Hora extra, contratação ou a combinação mais barata."), ("A escala da semana pronta", "Quem trabalha e quem folga em cada dia.")], ini=4),
+    slide("VOCÊ INFORMA", ["3 COISAS"], [("Os turnos da loja", "Entrada, saída, almoço e os dias de cada um."), ("Pessoas em cada turno", "Vendas, caixa, depósito, entrega."), ("Salário e tributação", "Simples Nacional ou Lucro Presumido/Real.")]),
+    slide("ELA MOSTRA", ["A RESPOSTA"], [("Quantas pessoas", "Hoje, com 42 horas e com 40 horas."), ("Quanto custa cada saída", "Hora extra, contratação ou a combinação mais barata."), ("A escala da semana pronta", "O turno e a folga de cada pessoa, dia a dia.")], ini=4),
     fim(["FAÇA A SUA", "SIMULAÇÃO"], [SITE, ("Seus dados ficam com você", "O cálculo roda no seu celular, nada é enviado.")], 'Quer ajuda para montar a escala? <b>Chame no direct.</b>')],
-    'Lançamos no site da Fortís a calculadora da escala 5x2, gratuita para lojas de material de construção.\n\nVocê informa o horário da loja, a equipe por função e os salários. Ela mostra quantas pessoas a loja vai precisar com 42 horas (16/12/2026) e com 40 horas (16/12/2027), quanto custa cada saída e a escala da semana pronta.\n\nAcesse: fortismatcon.com.br/ferramentas\n\nQuer ajuda para montar a escala? Chame no direct.'),
+    'Lançamos no site da Fortís a calculadora da escala 5x2, gratuita para lojas de material de construção.\n\nVocê informa os turnos da loja (entrada, saída, almoço e dias), quantas pessoas de cada função trabalham em cada turno e os salários. Ela mostra quantas pessoas a loja vai precisar com 42 horas (16/12/2026) e com 40 horas (16/12/2027), quanto custa cada saída e a escala da semana pronta.\n\nAcesse: fortismatcon.com.br/ferramentas\n\nQuer ajuda para montar a escala? Chame no direct.'),
   story=('calculadora-5x2-lancamento', chamada("NOVO NO SITE", ["QUANTAS PESSOAS", "SUA LOJA VAI PRECISAR?"], "A jornada de 42 horas começa em <b>16 de dezembro</b>. Simule a sua equipe agora.", 92)),
 )
 
