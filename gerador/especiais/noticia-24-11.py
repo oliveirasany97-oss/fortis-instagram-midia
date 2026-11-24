@@ -11,7 +11,7 @@ def story_cub():
                  32, destaque=(0,))
     return story(f'''{kicker("MERCADO MATCON · SINDUSCON-SP", 26)}
   {titulo(["FIO, TUBO E CIMENTO", "LIDERAM AS ALTAS"], 80, 900)}
-  {sub("Alta em 12 meses até outubro. Os materiais da obra, na média, subiram 6,2%.", 28, 90)}
+  {sub("Alta em 12 meses até outubro, no estado de São Paulo. Os materiais, na média, subiram 6,2%.", 28, 90)}
   {card(tab)}
   <p class="cta k" style="font-size:32px;padding:0 80px">Itens que sobem mais que a média pedem <b>margem revisada a cada nova compra.</b></p>''',
       'Fonte: SindusCon-SP/FGV, CUB-SP out/2026 · via SindusCon-SP e ALEC', 80)
